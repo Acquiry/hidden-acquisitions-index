@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Data rules check (sources, quote length, banned words, schema basics)
-        run: python scripts/check_data.py data/deals.json | tee reports/data_check.txt
+        run: mkdir -p reports && python scripts/check_data.py data/deals.json | tee reports/data_check.txt
       - name: Source check (fetch every link, confirm every quote)
         run: python scripts/verify_sources.py
       - uses: actions/upload-artifact@v4
