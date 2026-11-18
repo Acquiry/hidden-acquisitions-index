@@ -1,0 +1,19 @@
+{
+ "version": "1.1.0",
+ "release_date": "2026-11-19",
+ "doi_version": "10.5281/zenodo.24244788",
+ "doi_concept": null,
+ "licence": "CC BY 4.0",
+ "counts": {
+  "core": 36,
+  "extended": 63,
+  "hold": 10,
+  "rejected": 168
+ },
+ "sources_total": 1700,
+ "grade_A": 1460,
+ "grade_B": 240,
+ "sources_quote_exact": 1699,
+ "sources_archived": 1635,
+ "coverage": "2023-01-23/2026-10-30"
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "The Hidden Acquisitions Index"
+version: "1.1.0"
+date-released: "2026-11-19"
+doi: "10.5281/zenodo.24244788"
+license: CC-BY-4.0
+url: "https://www.acquiry.com/labs/hidden-acquisitions/"
+authors:
+  - family-names: "Boyton"
+    given-names: "Joash"
+    affiliation: "Acquiry Labs"
+    orcid: "https://orcid.org/0009-0000-2405-8766"
+keywords:
+  - artificial intelligence
+  - acquihire
+  - reverse acquihire
+  - merger control
+  - competition policy
+  - AI partnerships
+abstract: >-
+  The Hidden Acquisitions Index is an open, source-checked dataset of transactions in which large companies gained an AI company's people, technology or influence without buying the company: licence and team hires, team hires, minority stakes with control rights, investments tied to compute commitments, and investments with commercial partnerships. Version 1.1.0 records 109 deals (36 core, 63 related, 10 on hold) announced between 23 January 2023 and 30 October 2026, involving 33 buyers, with 1,700 sources (1,460 official records and 240 major-newsroom reports). Every coded fact is linked to a source with an exact quote of at most 20 words; 99.9% of quotes were confirmed word for word by at least one check between 15 and 18 November 2026 (live page, archived copy, rendered page or a separate second check), and the check result is recorded for every source. It also records 82 regulator events, 62 disclosed amounts kept as separate components (never summed), outcomes at 6, 12 and 24 months, and 168 candidates excluded with their reasons.
