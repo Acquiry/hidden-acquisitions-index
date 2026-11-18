@@ -20,6 +20,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Use the newest data draft if present
+        run: if [ -f data/deals_v15_draft.json ]; then cp data/deals_v15_draft.json data/deals.json; fi
       - name: Data rules check (sources, quote length, banned words, schema basics)
         run: mkdir -p reports && python scripts/check_data.py data/deals.json | tee reports/data_check.txt
       - name: Source check (fetch every link, confirm every quote)
