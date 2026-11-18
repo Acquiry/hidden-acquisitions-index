@@ -1,0 +1,29 @@
+name: Sync release files from acquiry.com
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download v1.1.0 bundle and check it
+        run: |
+          curl -fsSL -o /tmp/bundle.zip https://www.acquiry.com/api/hidden-acquisitions/v1/bundle.zip
+          echo "36073366dade4e5ad904f4f36d669d7bddb7f0f7f64dca2dfab70ff78b762781  /tmp/bundle.zip" | sha256sum -c -
+          rm -rf /tmp/rel && mkdir /tmp/rel && unzip -q /tmp/bundle.zip -d /tmp/rel
+          cd /tmp/rel && sha256sum -c SHA256SUMS.txt
+      - name: Copy release files into the repo
+        run: |
+          for f in README.md CITATION.cff LICENSE DATASHEET.md CHANGELOG.md croissant.json datapackage.json SHA256SUMS.txt; do cp /tmp/rel/$f ./$f; done
+          mkdir -p data && cp /tmp/rel/data/* data/
+          git rm -q --ignore-unmatch data/deals_v15_draft.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Release files for Hidden Acquisitions Index v1.1.0" || echo "nothing to commit"
+          git pull --rebase
+          git push
