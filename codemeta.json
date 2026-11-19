@@ -1,0 +1,48 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "The Hidden Acquisitions Index: data and checking scripts",
+  "description": "Data files and checking scripts for the Hidden Acquisitions Index, an open, source-checked dataset of AI licence-and-hire, team-hire, minority-stake and compute-for-equity transactions, 2023-2026. scripts/check_data.py checks the data files against the codebook rules; scripts/verify_sources.py re-checks every source quote against the live page or its archived copy.",
+  "version": "1.1.0",
+  "dateCreated": "2026-11-17",
+  "datePublished": "2026-11-19",
+  "license": "https://spdx.org/licenses/CC-BY-4.0",
+  "codeRepository": "https://github.com/Acquiry/hidden-acquisitions-index",
+  "url": "https://www.acquiry.com/labs/hidden-acquisitions/",
+  "issueTracker": "https://github.com/Acquiry/hidden-acquisitions-index/issues",
+  "identifier": "https://doi.org/10.5281/zenodo.24244788",
+  "programmingLanguage": "Python",
+  "softwareRequirements": [
+    "requests==2.32.3",
+    "beautifulsoup4==4.12.3",
+    "lxml==5.3.0",
+    "pdfminer.six==20240706",
+    "rapidfuzz==3.10.1"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0000-2405-8766",
+      "givenName": "Joash",
+      "familyName": "Boyton",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Acquiry Labs"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Acquiry Labs",
+    "url": "https://www.acquiry.com/labs/"
+  },
+  "keywords": [
+    "artificial intelligence",
+    "acquihire",
+    "merger control",
+    "competition policy",
+    "antitrust",
+    "dataset"
+  ],
+  "developmentStatus": "active"
+}
