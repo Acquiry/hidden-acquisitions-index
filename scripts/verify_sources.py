@@ -44,10 +44,23 @@ def raw_archive(url):
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "en"})
 
+MAX_BYTES = 40_000_000      # stop reading a page after 40 MB
+PAGE_DEADLINE = 60          # seconds allowed for one download, however slowly it arrives
+
+def get_limited(url):
+    r = session.get(url, timeout=(15, 30), allow_redirects=True, stream=True)
+    start, chunks, size = time.time(), [], 0
+    for chunk in r.iter_content(65536):
+        chunks.append(chunk); size += len(chunk)
+        if size > MAX_BYTES or time.time() - start > PAGE_DEADLINE:
+            break
+    r._content = b"".join(chunks); r.close()
+    return r
+
 def fetch(url):
     for attempt in range(3):
         try:
-            r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
+            r = get_limited(url)
             if r.status_code in (429, 503) and attempt < 2:
                 time.sleep(10 * (attempt + 1)); continue
             return r.status_code, r.url, (extract(r) if r.status_code < 400 else "")
@@ -62,7 +75,7 @@ def check_quote(text, quote):
         return "no_quote", 0
     if nq in nt:
         return "exact", 100
-    score = fuzz.partial_ratio(nq, nt) if len(nt) < 3_000_000 else 0
+    score = fuzz.partial_ratio(nq, nt) if len(nt) < 400_000 else 0  # exact match above covers long pages; fuzzy scoring on very long text is too slow
     return ("near" if score >= NEAR_THRESHOLD else "not_found"), round(score)
 
 def main():
