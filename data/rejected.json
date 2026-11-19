@@ -1,0 +1,1682 @@
+[
+ {
+  "buyer": "Unconventional AI",
+  "candidate": "NeuReality",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://unconv.ai/blog/unconventional-ai-to-acquire-neureality/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "Sundial",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.theverge.com/tech/1018103/meta-is-acquiring-an-ai-analytics-company",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Zoom",
+  "candidate": "Onyx",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Orchestra Bio",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Prime Intellect",
+  "candidate": "Moondream",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.primeintellect.ai/blog/moondream",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Rocket Software",
+  "candidate": "Geniez AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.rocketsoftware.com/en-us/news/rocket-software-announces-acquisition-of-geniez-ai-to-accelerate-agentic-ai-for-mainframe-modernization",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SAP",
+  "candidate": "TechWolf",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "AMD",
+  "candidate": "World Labs",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Adobe",
+  "candidate": "Topaz Labs",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Microchip Technology",
+  "candidate": "Hailo",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://ir.microchip.com/news-events/press-releases/detail/1415/microchip-technology-completes-acquisition-of-hailo",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Analog Devices",
+  "candidate": "Alif Semiconductor",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://investor.analog.com/news-releases/news-release-details/analog-devices-acquire-alif-semiconductor-adding-ai-native/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Harvey",
+  "candidate": "Guardrails AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.harvey.ai/blog/guardrails-ai-joins-harvey",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "Stilla",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Target announced joining Meta. Separate reporting describes a company acquisition. No alternative deal structure verified.",
+  "source_url": "https://stilla.ai/blog/stilla-is-joining-meta",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Aize",
+  "candidate": "Samp",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.aize.io/blog/aize-acquires-samp",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Palo Alto Networks",
+  "candidate": "Console",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Superhuman",
+  "candidate": "Fathom",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://blog.superhuman.com/superhuman-acquires-fathom/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Nooks",
+  "candidate": "FullyRamped",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.nooks.ai/blog-posts/nooks-acquires-fullyramped",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Stripe",
+  "candidate": "OpenRouter",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Dynatrace",
+  "candidate": "Arize AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://arize.com/blog/a-new-chapter-with-dynatrace/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "NextSlide",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "BigHand",
+  "candidate": "Ayora",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.bighand.com/en-us/resources/news/bighand-acquires-ayora/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Burson",
+  "candidate": "Limbik",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://bursonglobal.com/newsroom/global/burson-acquires-cognitive-ai-company-limbik",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Monetate",
+  "candidate": "Simon AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.simon.ai/news/monetate-acquires-simon-ai-uniting-the-leader-in-ai-powered-experience-optimization-with-the-ai-first-composable-cdp",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Nscale",
+  "candidate": "Anyscale",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.nscale.com/press-releases/nscale-acquires-anyscale",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Legora",
+  "candidate": "Wexler",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.wexler.ai/insights/press-release-legora-acquires-wexler-to-bring-fact-intelligence-to-agentic-legal-work",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Leonardo DRS",
+  "candidate": "Raft",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.leonardo.com/en/press-release-detail/-/detail/28-07-2026-leonardo-is-expanding-in-the-us-with-the-acquisition-of-raft",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Vena Solutions",
+  "candidate": "Morpheo AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.venasolutions.com/newsroom/vena-to-acquire-morpheo-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Elastic",
+  "candidate": "Deductive AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.elastic.co/blog/elastic-deductive-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Altana",
+  "candidate": "Cervo AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://altana.ai/resources/altana-acquires-cervo-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Applied Materials",
+  "candidate": "Minds.ai",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://momenta.vc/insights/minds.ai-acquired",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SAP",
+  "candidate": "Prior Labs",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://news.sap.com/2026/07/sap-completes-prior-labs-acquisition/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Anaconda",
+  "candidate": "Kilo Code",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.anaconda.com/press/anaconda-acquires-kilo-code",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Genesys",
+  "candidate": "Pinkfish",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.genesys.com/company/newsroom/announcements/genesys-acquires-pinkfish-to-accelerate-the-future-of-autonomous-customer-experiences",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "TrueFoundry",
+  "candidate": "Seldon",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.truefoundry.com/press-room/truefoundry-acquires-seldon-ai-to-accelerate-agentic-ai-capabilities-for-enterprise-customers",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "MoEngage",
+  "candidate": "Aampe",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.moengage.com/in-the-news/moengage-acquires-aampe-to-bring-11-agentic-decisioning-to-b2c-marketing-teams/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Syndio",
+  "candidate": "Embrace.ai",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://synd.io/press-release/syndio-acquires-embrace-ai/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Ona",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://openai.com/index/openai-to-acquire-ona/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Inspera",
+  "candidate": "Graide",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://cge-partners.com/news/cge-backed-inspera-expands-its-ai-enabled-offering-with-acquisition-of-graide/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Vaisala",
+  "candidate": "Atmo",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.vaisala.com/en/stock-exchange-releases/2026-06/inside-information-vaisala-acquires-ai-weather-company-atmo-inc-lead-transformation-meteorology",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SLB",
+  "candidate": "Tachyus",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.prnewswire.com/news-releases/tachyus-to-join-slb-to-accelerate-ai--driven-reservoir-management-302785846.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Asana",
+  "candidate": "StackAI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "FORT Robotics",
+  "candidate": "Mapless AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.fortrobotics.com/news/fort-acquires-mapless-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Cranium AI",
+  "candidate": "Aiceberg",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://cranium.ai/cranium-ai-acquires-aiceberg-to-strengthen-its-end-to-end-ai-security-governance-and-agentic-ai-platform/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Cohere",
+  "candidate": "Reliant AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://cohere.com/blog/cohere-acquires-reliant-ai-expand-sovereign-enterprise-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Reducto",
+  "candidate": "Opennote",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://reducto.ai/blog/reducto-acquires-opennote",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Roche",
+  "candidate": "PathAI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.roche.com/media/releases/med-cor-2026-05-07",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Optro",
+  "candidate": "Midship",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://optro.ai/blog/optro-leads-the-global-audit-transformation-with-the-acquisition-of-ai-native-midship",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Nebius",
+  "candidate": "Eigen AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://nebius.com/newsroom/nebius-completes-acquisition-of-eigen-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Mistral AI",
+  "candidate": "Emmi AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://mistral.ai/news/accelerate-ai-native-industry/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Palo Alto Networks",
+  "candidate": "Portkey",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-acquire-portkey-to-secure-the-rise-of-ai-agents",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Trifork",
+  "candidate": "VION AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://investor.trifork.com/announcements-2/trifork-acquires-vion-ai-to-accelerate-real-time-operational-intelligence-in-aviation/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Anaconda",
+  "candidate": "Outerbounds",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.anaconda.com/press/anaconda-acquires-outerbounds",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Sierra",
+  "candidate": "Fragment",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Qualcomm",
+  "candidate": "Exostellar",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://news.cornell.edu/stories/2026/04/qualcomm-acquires-cornell-ai-software-startup",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Sage",
+  "candidate": "Doyen AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.sage.com/en-us/news/press-releases/2026/04/sage-acquires-doyen-ai-to-help-smbs-migrate-and-go-live-faster-with-ai/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Databricks",
+  "candidate": "Quotient AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.databricks.com/blog/databricks-acquires-quotient-ai-power-ai-agent-evaluations",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Promptfoo",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://openai.com/index/openai-to-acquire-promptfoo/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Mintlify",
+  "candidate": "Helicone",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.mintlify.com/blog/mintlify-acquires-helicone",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Fractional AI",
+  "candidate": "Fabius",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.prnewswire.com/news-releases/fractional-ai-announces-acquisition-of-fabius-302697651.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Anthropic",
+  "candidate": "Vercept",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.anthropic.com/news/acquires-vercept",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Harbinger",
+  "candidate": "Phantom AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2026/02/25/harbinger-acquires-autonomous-driving-company-phantom-ai/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ADT",
+  "candidate": "Origin AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://newsroom.adt.com/corporate-news/adt-acquires-origin-ai-to-power-ai-sensing-and-ambient-intelligence-for-the-home",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Foundry",
+  "candidate": "Griptape",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.foundry.com/news-and-awards/foundry-acquires-griptape-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Mistral AI",
+  "candidate": "Koyeb",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2026/02/17/mistral-ai-buys-koyeb-in-first-acquisition-to-back-its-cloud-ambitions/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Snowflake",
+  "candidate": "TensorStax",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.snowflake.com/en/blog/tensorstax-acquisition-agentic-ai/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Marvell",
+  "candidate": "Celestial AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Handshake",
+  "candidate": "Cleanlab",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://cleanlab.ai/blog/handshake-acquires-cleanlab/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Procore",
+  "candidate": "Datagrid",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.procore.com/press/procore-acquires-datagrid",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Standard AI",
+  "candidate": "Pathr.ai",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.streetinsider.com/Business+Wire/Standard+AI+Acquires+Pathr.ai+to+Accelerate+Spatial+Intelligence+Adoption+in+Retail/25829597.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "CapStone Holdings",
+  "candidate": "Structurely",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.structurely.com/news/press-release/capstone-holdings-inc-acquires-structurely-positioning-the-company-for-the-next-era-of-ai-driven",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Microsoft",
+  "candidate": "Osmos",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.theregister.com/software/2026/01/06/microsoft-acquires-osmos-for-ai-powered-data-engineering/2654499",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "BigBear.ai",
+  "candidate": "Ask Sage",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://bigbear.ai/newsroom/bigbear-ai-finalizes-250m-acquisition-of-ask-sage/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Neptune",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://openai.com/index/openai-to-acquire-neptune/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "InterDigital",
+  "candidate": "Deep Render",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.globenewswire.com/news-release/2025/10/30/3177105/24691/en/interdigital-acquires-ai-startup-deep-render.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Software Applications Incorporated (Sky)",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://openai.com/index/openai-acquires-software-applications-incorporated/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Contentsquare",
+  "candidate": "Loris AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://contentsquare.com/press/contentsquare-completes-acquisition-of-loris-ai/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Elastic",
+  "candidate": "Jina AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://ir.elastic.co/News--Events/news/news-details/2025/Elastic-Completes-Acquisition-of-Jina-AI-a-Leader-in-Frontier-Models-for-Multimodal-and-Multilingual-Search/default.aspx",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Uniphore",
+  "candidate": "Orby AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://www.uniphore.com/press-releases/uniphore-announces-the-acquisitions-of-orby-ai-and-autonom8/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "WaveForms",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://techcrunch.com/2025/08/08/meta-acquires-ai-audio-startup-waveforms/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ServiceNow",
+  "candidate": "Moveworks",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-to-extend-leading-agentic-AI-to-every-employee-for-every-corner-of-the-business-with-acquisition-of-Moveworks-03-10-2025-traffic/default.aspx",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ServiceNow",
+  "candidate": "Cuein",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Company acquisition reported. No separate qualifying event located in the additional screen.",
+  "source_url": "https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-accelerates-agentic-AI-roadmap-with-acquisition-of-AI-native-conversation-data-analysis-platform-Cuein-01-17-2025-traffic/default.aspx",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Adobe",
+  "candidate": "Synthesia",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Adobe. The opened issuer statement confirms Adobe Ventures funding. Its body does not establish the creative-tool collaboration asserted in the old rejection reason.",
+  "source_url": "https://www.synthesia.io/post/100-million-revenue-adobe-investment",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Intel and other investors",
+  "candidate": "SambaNova Systems",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "Investor participated in a syndicated financing and signed a hardware partnership. No qualifying right identified.",
+  "source_url": "https://www.reuters.com/business/media-telecom/ai-chip-startup-sambanova-raises-350-million-vista-led-round-signs-intel-2026-02-24/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Alibaba",
+  "candidate": "MiniMax",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The portfolio report names the investment. The amount or exchange of cloud credits is not attributed specifically to this company.",
+  "source_url": "https://www.ft.com/content/978687d4-f9cf-4990-94b6-8d4f21c5e94b",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Alibaba",
+  "candidate": "Zhipu AI",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The portfolio report names the investment. The amount or exchange of cloud credits is not attributed specifically to this company.",
+  "source_url": "https://www.ft.com/content/978687d4-f9cf-4990-94b6-8d4f21c5e94b",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Alibaba",
+  "candidate": "01.AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Alibaba. A denial of a team sale and a separate laboratory collaboration do not establish the qualifying transaction.",
+  "source_url": "https://www.scmp.com/tech/tech-trends/article/3293791/chinese-start-01ai-founder-lee-kai-fu-denies-rumours-asset-sale-alibaba",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Anthropic",
+  "candidate": "Runhouse",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Target investor described an acquisition with share consideration. A structure excluding company control is not confirmed in public records.",
+  "source_url": "https://www.calcalistech.com/ctechnews/article/b1dsxqr6zl",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Roi",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Reporting describes an acquisition of Roi. Only one employee joined. A founder hire did not establish a separate non-control transaction.",
+  "source_url": "https://techcrunch.com/2025/10/03/with-its-latest-acqui-hire-openai-is-doubling-down-on-personalized-consumer-ai/?_bhlid=b71aa1ad576343cc762635ce0a3e110a0a5422e6",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Harvey",
+  "candidate": "Lume AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Transaction counsel describes a company acquisition. No qualifying alternative structure established.",
+  "source_url": "https://www.lw.com/en/news/2026/03/latham-advises-harvey-on-acquisitions-of-hexus-and-lume-ai",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "MUFG",
+  "candidate": "Sakana AI",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "MUFG. This cited multiyear banking collaboration does not disclose an equity investment or a team/technology transfer. The later November 2025 MUFG financing is already a separate admitted row.",
+  "source_url": "https://sakana.ai/mufg-bank/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Multiple investors",
+  "candidate": "Together AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Multiple investors. The financing is proven, but this mixed-investor row does not identify a qualifying incumbent-specific right or investment-linked commercial arrangement. A venture lead board appointment is not allocated to NVIDIA.",
+  "source_url": "https://www.together.ai/blog/series-a",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Multiple investors",
+  "candidate": "AI21 Labs",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Multiple investors. The syndicated financing is documented. Incumbent-specific qualifying rights or a linked commercial arrangement are not established in the opened source.",
+  "source_url": "https://techcrunch.com/2023/08/30/generative-ai-startup-ai21-labs-lands-155m-at-a-1-4b-valuation/?trk=article-ssr-frontend-pulse_little-text-block",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SAPEON Korea",
+  "candidate": "Rebellions",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "SAPEON Korea. The target company announcement describes a definitive company merger agreement with SAPEON Korea.",
+  "source_url": "https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-sign-definitive-merger-agreement/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Hyundai Motor Group; Samsung",
+  "candidate": "Tenstorrent",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Hyundai Motor Group; Samsung. The Hyundai component duplicates admitted Hyundai/Kia allocations. The mixed Samsung component needs its own event definition. Keep the combined row excluded as a mixed or duplicate entry.",
+  "source_url": "https://www.hyundaimotorgroup.com/en/amp/CONT0000000000103901",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI and others",
+  "candidate": "Figure AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "OpenAI and others. The investor named is OpenAI Startup Fund, while OpenAI is the model-development counterparty. The source does not establish that OpenAI itself bought the stake. Preserve entity identity.",
+  "source_url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "PromptAI",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Apple. Duplicate of admitted apple-promptai-2026. Keep excluded as a duplicate, not as an event that lacks a qualifying mechanism.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Google",
+  "candidate": "Upollo Pty Ltd",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Google. Duplicate of admitted google-upollo-2025. Keep excluded as a duplicate, not as an event that lacks a qualifying mechanism.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Google",
+  "candidate": "Salient Predictions, Inc.",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Google. Duplicate of admitted google-salient-2026. Keep excluded as a duplicate, not as an event that lacks a qualifying mechanism.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "Pointable Inc.",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Apple. The EU notice records Apple buying selected assets outright together with hiring staff. A formal asset purchase is an acquisition, so it falls outside an index of deals made without one.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-16"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "TrueMeeting, Inc. and TrueMeeting LTD",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Apple. The EU notice records Apple buying selected assets outright together with hiring staff. A formal asset purchase is an acquisition, so it falls outside an index of deals made without one.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-16"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "Betteromics Inc.",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Apple. The notice establishes an AI business and a right to make job offers. It does not establish accepted group hiring or a qualifying licence. A potential offer alone is insufficient for team-only hiring.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "Drishti",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Apple. The EU notice records Apple buying selected assets outright together with hiring staff. A formal asset purchase is an acquisition, so it falls outside an index of deals made without one.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-16"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "Samplab GmbH",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Apple. The notice establishes selected assets and offers to employees. Current target web pages redirect to Apple, and an eligible opened source for its AI-business test was not admitted in this pass.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Microsoft",
+  "candidate": "Bluesky Data, Inc.",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "Microsoft. The notice describes cloud workload optimization, and a qualifying AI-startup business was not established. Apply the existing explicit non-AI scope ruling.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Microsoft / LinkedIn",
+  "candidate": "Tumult Labs, Inc.",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Licence and employee transfer confirmed. Filing describes differential privacy. Independent evidence of an AI business as defined is not settled by the sources.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Google",
+  "candidate": "Logic and Rhythm LLC",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "Google. The notice describes interface design, high-precision software and strategy. Apply the existing non-AI scope ruling unless a new eligible AI-business source is supplied.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Google",
+  "candidate": "HTC Corporation",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "Google. The counterparty is the established electronics manufacturer. The recorded transaction does not identify a separate AI startup as target.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Apple",
+  "candidate": "Kuzu Inc.",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Apple. The official notice says Apple will acquire all shares in Kuzu.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "Playht, Inc. (PlayAI)",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "The register identifies an acquisition of PlayAI. No separate qualifying arrangement was verified.",
+  "source_url": "https://digital-markets-act-cases.ec.europa.eu/acquisitions",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Google",
+  "candidate": "Anthropic | additional round reported January 2025",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Google. The January report gives USD1bn, while the later prospectus separately describes an August 2024 note with approximately USD1.3bn principal. The instruments are not mapped conclusively. Do not combine or assume a premium.",
+  "source_url": "https://www.reuters.com/technology/artificial-intelligence/google-invests-1-bln-openai-rival-anthropic-ft-reports-2025-01-22/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank",
+  "candidate": "OpenAI Japan JV",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "SoftBank. The official announcement concerns a jointly owned vehicle, which is explicitly outside the AI-startup target scope.",
+  "source_url": "https://group.softbank/en/news/press/20250203_0",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Databricks",
+  "candidate": "MosaicML",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://www.databricks.com/company/newsroom/press-releases/databricks-signs-definitive-agreement-acquire-mosaicml-leading-generative-ai-platform?itm_data=HP-Banner-PR&trk=article-ssr-frontend-pulse_little-text-block",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Global Illumination",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://openai.com/index/openai-acquires-global-illumination/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Rockset",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://openai.com/index/openai-acquires-rockset/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "AMD",
+  "candidate": "Silo AI",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://www.amd.com/en/newsroom/press-releases/2024-7-10-amd-to-acquire-silo-ai-to-expand-enterprise-ai-sol.html",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank",
+  "candidate": "Graphcore",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://www.graphcore.ai/posts/graphcore-joins-softbank-group-to-build-next-generation-of-ai-compute",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "NVIDIA",
+  "candidate": "Hugging Face",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Conventional acquisition or definitive company purchase agreement. See comparison set.",
+  "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Cisco",
+  "candidate": "Mistral AI",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Cisco. Duplicate of admitted cisco-mistralai-2024. Keep excluded as a duplicate.",
+  "source_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m06/cisco-launches-1b-global-ai-investment-fund.html",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Cisco",
+  "candidate": "Scale AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Cisco. The fund announcement identifies investment, but no candidate-specific qualifying right or transaction-linked commercial arrangement was established.",
+  "source_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m06/cisco-launches-1b-global-ai-investment-fund.html",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "NVIDIA",
+  "candidate": "NAVER",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "NVIDIA. The opened sources establish AI infrastructure collaboration. An equity investment or other qualifying transfer between the recorded counterparties was not established.",
+  "source_url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout?trk=article-ssr-frontend-pulse_little-text-block",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Oracle",
+  "candidate": "Cohere",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Oracle. Duplicate of admitted oracle-cohere-2023. Keep excluded as a duplicate.",
+  "source_url": "https://www.globenewswire.com/news-release/2023/06/08/2684788/0/en/Cohere-Announces-270M-Series-C-to-Bring-Generative-AI-to-Enterprises.html",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank",
+  "candidate": "Perplexity AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "SoftBank. SoftBank Corp. confirms commercial distribution. A specific linked investment by the same legal counterparty was not established. A group venture-fund report is not silently combined with the telecom agreement.",
+  "source_url": "https://www.softbank.jp/en/corp/news/press/sbkk/2024/20240617_01/",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent & Baidu",
+  "candidate": "Infinigence AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Tencent and Baidu. The 5 December 2023 Shanghai Securities News article attributes the shareholder changes to a commercial registry intermediary. The target overview identifies the company. A primary investor-specific instrument, control right or commercial commitment for either investor is not yet confirmed in public records. Retain E4.",
+  "source_url": "https://www.infinigence-ai.com/about-us.html",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "OpenAI",
+  "candidate": "Odessia",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Announced as an acquisition",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ElevenLabs",
+  "candidate": "Omnivore",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "Not an AI company",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank/NEC/Sony/Honda",
+  "candidate": "Japan AI Foundation Model Development",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "New joint venture",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "Junyang Lin's new lab",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "Plain venture investment",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "Manus",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Full acquisition, blocked by China's NDRC: comparison set",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Saudi Aramco",
+  "candidate": "HUMAIN",
+  "exclusion_code": "E3",
+  "exclusion_label": "Not an AI startup",
+  "reason": "49% stake, but both parties are state-controlled: a restructuring within the Saudi state, not a big company taking a startup",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SK Networks",
+  "candidate": "Upstage",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "SK Networks. Replace malformed reason: primary issuer documents verify Jan2024 KRW25bn SeriesB decision, Feb2026 call-option investment, and Oct2026 ~KRW20bn additional-share decision. No investment-specific signed commercial agreement or governance right established in opened originals. February amount conflicts between February and November issuer statements (KRW47bn vs KRW27bn). Hold pending defined qualifying tie; not an SK Telecom duplicate.",
+  "source_url": "https://www.sknetworks.com/pr/news-room/15797?currentPage=&searchWord=",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "KDDI",
+  "candidate": "ELYZA",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Majority stake: comparison set",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Schwarz Group",
+  "candidate": "Aleph Alpha",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "Investment + cloud partnership, no control rights confirmed",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Cohere",
+  "candidate": "Aleph Alpha",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Business combination: comparison set",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Qualcomm",
+  "candidate": "Modular",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Full acquisition: comparison set",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Salesforce",
+  "candidate": "Loops",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "Full acquisition: comparison set",
+  "source_url": "",
+  "source_grade": "",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "AMD",
+  "candidate": "Moreh",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Use of AMD GPUs and participation in the round were verified. A separate commitment, exclusive right or governance term granted to AMD was not established.",
+  "source_url": "https://moreh.io/about/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Alibaba",
+  "candidate": "Baichuan",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Round participation is supported. The sources reviewed did not establish investor-specific rights or a compute exchange.",
+  "source_url": "https://tech.yahoo.com/ai/articles/chinese-ai-upstart-baichuan-raises-085601658.html",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Amazon",
+  "candidate": "Fauna Robotics",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "[conventional] Acquisition of the business. See conventional comparison.",
+  "source_url": "https://faunarobotics.com/news/fauna-robotics-joins-amazon",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Amazon",
+  "candidate": "Rivr",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "[conventional] Acquisition of the business. See conventional comparison.",
+  "source_url": "https://techcrunch.com/2026/03/19/amazon-acquires-rivr-maker-of-a-stair-climbing-delivery-robot/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Amazon",
+  "candidate": "Rivr (2024 investment)",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "The funding round preceded a later acquisition. The published pilot involved a separate delivery company. Deal-specific rights for Amazon were not established.",
+  "source_url": "https://techcrunch.com/2026/03/19/amazon-acquires-rivr-maker-of-a-stair-climbing-delivery-robot/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Arm",
+  "candidate": "Alphawave",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "A reported acquisition approach did not establish a completed alternative transaction involving Arm.",
+  "source_url": "https://www.reuters.com/technology/arm-recently-sought-acquire-alphawave-ai-chip-tech-sources-say-2025-04-01/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Arm",
+  "candidate": "Tensor",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "Product integration. An equity exchange, exclusive licence or transfer of a startup team was not established.",
+  "source_url": "https://newsroom.arm.com/news/arm-and-tensor-partnership",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Baidu",
+  "candidate": "Kunlunxin",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "IPO filing by Baidu’s existing chip business. This was not a new qualifying stake in an independent startup.",
+  "source_url": "https://www.reuters.com/world/asia-pacific/baidus-ai-chip-arm-kunlunxin-files-confidentially-hong-kong-listing-2026-01-01/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Broadcom",
+  "candidate": "Anthropic",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The filing describes access to compute under the Google collaboration. It does not identify a Broadcom equity exchange.",
+  "source_url": "https://investors.broadcom.com/static-files/c906d370-921b-4bc2-bb7b-57877dfcf1ae",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Geely",
+  "candidate": "StepFun",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "A management appointment and financing do not establish a Geely investment with appointment rights.",
+  "source_url": "https://www.scmp.com/tech/big-tech/article/3341257/geely-linked-tech-veteran-yin-qi-joins-chinese-ai-start-stepfun-chairman",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Intel",
+  "candidate": "Stability AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The note financing was reported. A condition connecting it to Intel compute, exclusive rights or governance was not verified.",
+  "source_url": "https://news.bloomberglaw.com/capital-markets/stability-ai-gets-intel-backing-in-new-financing",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "Conductor",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "[conventional] Acquisition of the business. See conventional comparison.",
+  "source_url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/ | https://www.conductor.build/announcement",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Meta",
+  "candidate": "VirtueAI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The company source establishes its identity. No publicly accessible transaction source meeting the admission threshold was verified.",
+  "source_url": "https://home.virtueai.com/about",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "NVIDIA",
+  "candidate": "Nscale (September financing)",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Series financing supported. The reviewed announcement does not identify special rights or link NVIDIA’s subscription to a specified compute commitment.",
+  "source_url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "NVIDIA",
+  "candidate": "Reflection AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The report describes talks about buying the company. A completed alternative structure was not verified.",
+  "source_url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Qualcomm",
+  "candidate": "Edge Impulse",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "[conventional] Acquisition of the business. See conventional comparison.",
+  "source_url": "https://www.qualcomm.com/news/releases/2025/03/qualcomm-to-bolster-ai-and-iot-capabilities-with-edge-impulse-ac",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Qualcomm",
+  "candidate": "HUMAIN",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "Joint data-center and inference plans. The reviewed announcement does not establish an equity exchange or exclusive right.",
+  "source_url": "https://www.qualcomm.com/news/releases/2025/05/qualcomm-and-humain-to-develop-state-of-the-art-ai-data-centers-",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SK Telecom",
+  "candidate": "CMES",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The 2023 announcement records collaboration. No distinct in-period investment or exclusive right was established in this source.",
+  "source_url": "https://news.sktelecom.com/en/724",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SK Telecom",
+  "candidate": "TUAT",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Accessible-technology collaboration began before the window. An in-period equity or exclusive-rights transaction was not verified.",
+  "source_url": "https://www.sktelecom.com/img/eng/persist_report/20240731/SK_Telecom_Annual_Report_2023_Eng.pdf",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Samsung Electronics",
+  "candidate": "Rainbow Robotics",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "A minority stake and share purchase option were verified. Evidence reviewed did not establish a target AI product at the 2023 agreement date.",
+  "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_1Q_Interim_Report.pdf",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Samsung Electronics",
+  "candidate": "Tenstorrent",
+  "exclusion_code": "E6",
+  "exclusion_label": "Other",
+  "reason": "Hyundai Motor Group; Samsung. The Hyundai component duplicates admitted Hyundai/Kia allocations. The mixed Samsung component needs its own event definition. Keep the combined row excluded as a mixed or duplicate entry.",
+  "source_url": "https://www.hyundaimotorgroup.com/en/amp/CONT0000000000103901",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ServiceNow",
+  "candidate": "Zaelab",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The announcement identifies a services partner. It does not establish an AI startup as the counterparty.",
+  "source_url": "https://newsroom.servicenow.com/press-releases/details/2025/Zaelab-Receives-Strategic-Investment-from-ServiceNow-to-Accelerate-CRM-Driven-Enterprise-Modernization/default.aspx",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "ServiceNow",
+  "candidate": "inMorphis",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The target is described as a ServiceNow implementation partner. An eligible AI product company was not established.",
+  "source_url": "https://newsroom.servicenow.com/press-releases/details/2024/ServiceNow-makes-strategic-growth-investment-in-inMorphis-a-leading-global-ServiceNow-pure-play-partner-05-30-2024-traffic/default.aspx",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Snowflake",
+  "candidate": "Anthropic",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The product-distribution agreement specifies a commercial commitment. A related investment or exclusive right was not shown.",
+  "source_url": "https://www.snowflake.com/en/news/press-releases/snowflake-and-anthropic-announce-200-million-partnership-to-bring-agentic-ai-to-global-enterprises/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank Corp.",
+  "candidate": "Perplexity AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "SoftBank. SoftBank Corp. confirms commercial distribution. A specific linked investment by the same legal counterparty was not established. A group venture-fund report is not silently combined with the telecom agreement.",
+  "source_url": "https://www.softbank.jp/en/corp/news/press/sbkk/2024/20240617_01/",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SoftBank Group",
+  "candidate": "OpenAI (February 2026 follow-on)",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Separate follow-on funding confirmed. An additional right or operating commitment specific to this subscription was not established.",
+  "source_url": "https://group.softbank/en/news/press/20260227",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "AgiBot",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The financing announcement did not establish qualifying rights or an operating commitment for Tencent.",
+  "source_url": "https://www.scmp.com/tech/big-tech/article/3303837/chinese-tech-giant-tencent-joins-latest-investment-round-shanghai-robotics-start-agibot",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "Baichuan",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Round participation is supported. The sources reviewed did not establish investor-specific rights or a compute exchange.",
+  "source_url": "https://tech.yahoo.com/ai/articles/chinese-ai-upstart-baichuan-raises-085601658.html",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "Manus",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The cited report concerns negotiations. A concluded Tencent deal meeting the criteria was not verified.",
+  "source_url": "https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "MiniMax",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "The prospectus identifies Tencent. Buyer-specific rights or an explicit compute-for-equity arrangement were not established.",
+  "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100025.pdf",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Tencent",
+  "candidate": "Zhipu AI",
+  "exclusion_code": "E4",
+  "exclusion_label": "Insufficient evidence",
+  "reason": "Financing is supported. No participant-specific board, exclusivity or cloud consideration was verified.",
+  "source_url": "https://www.scmp.com/tech/big-tech/article/3238698/alibaba-tencent-and-other-major-chinese-backers-invest-us342-million-start-zhipu-ai-tech-sector-sees?module=inline&pgtype=article",
+  "source_grade": "B",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "SpaceX",
+  "candidate": "Anysphere (Cursor)",
+  "exclusion_code": "E1",
+  "exclusion_label": "Full acquisition",
+  "reason": "The same buyer completed the acquisition on 14 August 2026. The April option became a full acquisition.",
+  "source_url": "https://data.sec.gov/submissions/CIK0001181412.json",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ },
+ {
+  "buyer": "Adobe",
+  "candidate": "Runway",
+  "exclusion_code": "E2",
+  "exclusion_label": "No control rights",
+  "reason": "The opened announcement establishes product collaboration and time-limited early access. It supplies no equity investment or hiring route.",
+  "source_url": "https://news.adobe.com/news/2025/12/adobe-and-runway-partner",
+  "source_grade": "A",
+  "checked_date": "2026-11-15"
+ }
+]

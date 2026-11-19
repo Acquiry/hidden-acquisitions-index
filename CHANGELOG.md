@@ -12,6 +12,13 @@
 - **Quote checks recorded per source:** sources.csv now shows the automated checker's result, a rendered-page check for the EU DMA register (which needs JavaScript), and the separate second check.
 - **Archived copies:** 1,635 of 1,700 sources (96%) now have a Wayback Machine copy, up from 43%. The other 65 come from sites that block or limit archiving; each says so in the new `archive_note` column of sources.csv.
 - **New file:** research_log.csv, the round 6 trail of where each field was searched.
+- **Pre-publication review (19 November 2026).** An independent review before the DOI was published led to these changes:
+  - **Sourcing rule restated** to match the data. Buyer, target, date, deal type and structure rest on an official record or two independent newsrooms for every core deal. Facts that rest on a single newsroom report are now listed per deal in a new `single_report_fields` column, and `headline_check` was recomputed from all quote checks.
+  - **Evidence tags completed:** 453 tags added where a source already named the party or described the deal but was not tagged for it (each logged).
+  - **Source labels corrected** where a URL had been updated but its publisher, grade or title had not (15 sources; 6 moved from grade B to A and 2 from A to B on the evidence of the page actually checked). The last unconfirmed quote (SMART Global, 15 July 2024) was confirmed on the live page, so all 1,700 quotes are now confirmed word for word.
+  - **Internal notes removed:** working notes in `tier_reason`, `conflict`, `evidence_status` and `note` were rewritten as neutral statements, and internal-only fields (`research_lead`, `funding_lead_for_review`, `source_round`, `added_in`, `tier_previous`, `deal_type_previous`) were dropped.
+  - **Codebook completed:** every column of every file now has a definition, allowed values where enumerated and, where a judgement is involved, a coding rule.
+  - **Every table is now also provided as JSON.**
 
 ## 1.0.1 (17 November 2026)
 

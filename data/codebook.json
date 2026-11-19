@@ -1,0 +1,1170 @@
+[
+ {
+  "field": "deal_id",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Stable identifier: buyer-target-year, with a month qualifier where one buyer has several deals with one target in a year.",
+  "coding_rule": ""
+ },
+ {
+  "field": "announce_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date the deal was first made public (YYYY-MM-DD, or YYYY-MM where only the month is known).",
+  "coding_rule": "Use the company announcement or filing date. If the deal was first reported before any announcement, use the date of the first substantiated report naming both parties; date_basis says which applies."
+ },
+ {
+  "field": "date_precision",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "day",
+  "description": "Precision of announce_date.",
+  "coding_rule": ""
+ },
+ {
+  "field": "acquirer",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer, as commonly named.",
+  "coding_rule": ""
+ },
+ {
+  "field": "acquirer_country",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Country of the buyer’s headquarters.",
+  "coding_rule": "From an SEC issuer record or the buyer’s own filings where available. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "target",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Startup or lab, as commonly named.",
+  "coding_rule": ""
+ },
+ {
+  "field": "target_country",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Country where the target operates (headquarters or main operations).",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "target_focus",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What the target does, in the sources’ words.",
+  "coding_rule": ""
+ },
+ {
+  "field": "deal_type",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "COMPUTE_FOR_EQUITY / LICENCE_AND_HIRE / MINORITY_STAKE_CONTROL / OTHER_HYBRID / TEAM_ONLY_HIRE",
+  "description": "Structure of the transaction.",
+  "coding_rule": "LICENCE_AND_HIRE: technology licence plus hiring of founders or staff. TEAM_ONLY_HIRE: founders or staff hired, no licence disclosed. MINORITY_STAKE_CONTROL: minority stake with a board seat, veto, consultation or similar right. COMPUTE_FOR_EQUITY: equity paid for wholly or partly in compute or cloud credits, or tied to a compute commitment. OTHER_HYBRID: investment plus a stated commercial tie."
+ },
+ {
+  "field": "licence_included",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "no / not disclosed / yes",
+  "description": "Whether the deal includes a licence of the target’s technology.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "licence_exclusive",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "no / not disclosed / yes",
+  "description": "Whether that licence is exclusive.",
+  "coding_rule": "yes or no only where a source states it. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "equity_stake_pct",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer’s shareholding after the deal, with its basis.",
+  "coding_rule": "As stated; never derived from amounts. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "disclosed_value_usd",
+  "file": "deals.csv / deals.json",
+  "type": "int|str",
+  "allowed_values": "",
+  "description": "Disclosed consideration in US dollars.",
+  "coding_rule": "Only an amount stated by a source; never estimated or converted from other figures. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "value_note",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What disclosed_value_usd covers.",
+  "coding_rule": ""
+ },
+ {
+  "field": "value_basis",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "How the value is stated (for example point, ceiling, approximate, conflicting estimates).",
+  "coding_rule": ""
+ },
+ {
+  "field": "value_source_grade",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "A / B / not disclosed",
+  "description": "Grade of the best source for the value.",
+  "coding_rule": ""
+ },
+ {
+  "field": "founders_moved",
+  "file": "deals.csv / deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Founders who joined the buyer, with their role there where disclosed.",
+  "coding_rule": ""
+ },
+ {
+  "field": "founder_move_confirmed",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "no / not confirmed by grade A/B source / not disclosed / yes",
+  "description": "Whether a founder move is confirmed by a grade A or B source.",
+  "coding_rule": ""
+ },
+ {
+  "field": "staff_moved",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Number or description of staff who moved, as stated.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "target_staff_before",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Target headcount before the deal, with its date.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "target_status_after",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "bankruptcy / continued / not disclosed / pivoted / product discontinued / sold / sold assets / sold later / wound down",
+  "description": "Status of the target company after the deal.",
+  "coding_rule": "From the latest dated source (status_date)."
+ },
+ {
+  "field": "status_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the target_status_after observation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "target_status_note",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Short note on target_status_after.",
+  "coding_rule": ""
+ },
+ {
+  "field": "investor_outcome",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What the target’s investors received, as stated.",
+  "coding_rule": ""
+ },
+ {
+  "field": "employee_outcome",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What happened to staff who did not move, as stated.",
+  "coding_rule": ""
+ },
+ {
+  "field": "target_last_valuation_usd",
+  "file": "deals.csv / deals.json",
+  "type": "int|str",
+  "allowed_values": "",
+  "description": "Target’s last valuation before the deal, as stated.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "valuation_date",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Date of that valuation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "regulatory_review",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "cleared / formal review / inquiry opened / letters from US senators / none known / not disclosed",
+  "description": "Highest level of regulator attention known.",
+  "coding_rule": "Ordered: none known < letters from US senators < inquiry opened < formal review < cleared or closed. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "regulatory_detail",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Short neutral description of regulator actions.",
+  "coding_rule": ""
+ },
+ {
+  "field": "conflict",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Where sources disagree on a value: what each says. \"none\" = no disagreement recorded.",
+  "coding_rule": "Both values are shown as reported; neither is averaged or chosen unless a filing settles it."
+ },
+ {
+  "field": "date_basis",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What announce_date is based on (company announcement, filing, or first public report).",
+  "coding_rule": ""
+ },
+ {
+  "field": "notes",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Other relevant facts from the sources.",
+  "coding_rule": ""
+ },
+ {
+  "field": "completeness",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "core / full / partial",
+  "description": "How complete the record is: full, core (key fields only) or partial.",
+  "coding_rule": ""
+ },
+ {
+  "field": "buyer_tier",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "AI lab / large listed buyer / mega-cap over $100bn / not disclosed / other buyer / other listed",
+  "description": "Size class of the buyer.",
+  "coding_rule": "\"mega-cap over $100bn\" = market capitalisation above USD 100bn at announcement. \"large listed buyer\" and \"other buyer\" are coarser classes used where market capitalisation was not checked."
+ },
+ {
+  "field": "remainder_after",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "bankruptcy / company wound down / continued / not disclosed / pivoted / sold",
+  "description": "Status of the remaining company at the latest record.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of remainder_after.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_valuation_after_usd",
+  "file": "deals.csv / deals.json",
+  "type": "int|str",
+  "allowed_values": "",
+  "description": "Later valuation of the remaining company, as stated.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "founder_retention",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Whether founders were still at the buyer at the latest record.",
+  "coding_rule": ""
+ },
+ {
+  "field": "relationship_id",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Links several deals (tranches) between the same buyer and target.",
+  "coding_rule": ""
+ },
+ {
+  "field": "tranche_count",
+  "file": "deals.csv / deals.json",
+  "type": "int",
+  "allowed_values": "",
+  "description": "Number of tranches in the relationship.",
+  "coding_rule": ""
+ },
+ {
+  "field": "hsr_threshold_multiple",
+  "file": "deals.csv / deals.json",
+  "type": "float|str",
+  "allowed_values": "",
+  "description": "disclosed_value_usd divided by hsr_threshold_usd, where both exist.",
+  "coding_rule": "n/a where either is missing. Not a finding that a filing was required."
+ },
+ {
+  "field": "index_tier",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "core / extended / hold",
+  "description": "Tier of the record: core, extended (shown as \"related\" on the website) or hold.",
+  "coding_rule": "core = the buyer gained at least one control lever (staff, a licence, a board seat or a veto). extended = investment with a commercial tie, compute-for-equity, or AI infrastructure. hold = evidence incomplete; excluded from counts on the website."
+ },
+ {
+  "field": "target_layer",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "AI infrastructure & chips / applied AI & agents / data & autonomous systems / foundation models / not disclosed",
+  "description": "AI stack layer of the target.",
+  "coding_rule": "Assigned from target_focus: foundation models; applied AI & agents; AI infrastructure & chips; data & autonomous systems."
+ },
+ {
+  "field": "company_rationale",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Reason the companies gave for the deal, quoted or closely paraphrased.",
+  "coding_rule": ""
+ },
+ {
+  "field": "threshold_jurisdiction",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Jurisdiction used to compare the deal with merger-filing thresholds.",
+  "coding_rule": "Target-country proxy. This is not a finding that a filing was required."
+ },
+ {
+  "field": "threshold_year",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "2023 / 2024 / 2025 / 2026 / not disclosed",
+  "description": "Year whose threshold applies.",
+  "coding_rule": ""
+ },
+ {
+  "field": "deal_stage",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Stage of the transaction at the latest source (for example announced, agreed, completed, proposed employment offers).",
+  "coding_rule": "Coded from the most authoritative source; a European Commission DMA Article 14 notice is coded at the agreed stage unless it describes completed hiring."
+ },
+ {
+  "field": "staff_offers_reported",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Employment offers reported, where completed hires are not confirmed.",
+  "coding_rule": ""
+ },
+ {
+  "field": "structure_facts",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Short description of how the deal is structured, from the sources.",
+  "coding_rule": ""
+ },
+ {
+  "field": "voting_board_seat",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Whether the buyer holds a voting board seat.",
+  "coding_rule": "\"no (stated)\" = a source says there is none. \"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "board_observer_or_committee",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Whether the buyer holds an observer or advisory committee seat.",
+  "coding_rule": ""
+ },
+ {
+  "field": "veto_or_reserved_matters",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer veto or consent rights.",
+  "coding_rule": ""
+ },
+ {
+  "field": "exclusivity",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Commercial exclusivity tied to the deal (for example sole cloud provider).",
+  "coding_rule": ""
+ },
+ {
+  "field": "right_of_first_refusal",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "no / not applicable / not disclosed / yes",
+  "description": "Right of first refusal held by the buyer.",
+  "coding_rule": ""
+ },
+ {
+  "field": "contractual_consultation_rights",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer rights to consult or advise management.",
+  "coding_rule": ""
+ },
+ {
+  "field": "licence_exclusive_confirmed",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "no / no (stated) / not disclosed",
+  "description": "Whether exclusivity (or non-exclusivity) is stated in an official (grade A) source.",
+  "coding_rule": "\"no (stated)\" = an official source says the licence is non-exclusive."
+ },
+ {
+  "field": "cloud_compute_spending_commitment",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Target’s commitment to spend on the buyer’s cloud or compute, as stated.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_valuation_after_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of that valuation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "total_funding_raised_usd",
+  "file": "deals.csv / deals.json",
+  "type": "int|str",
+  "allowed_values": "",
+  "description": "Target’s total funding before the deal, as stated.",
+  "coding_rule": "\"not disclosed\" = no eligible source states the value. It does not mean none."
+ },
+ {
+  "field": "lead_investors",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Lead investors in the target’s funding rounds, as stated.",
+  "coding_rule": ""
+ },
+ {
+  "field": "payout_detail",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "How the money was paid out (to investors, employees or the company), as stated.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_6m",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Dated observation of the remaining company about 6 months after announcement.",
+  "coding_rule": "The dated public observation closest to the anniversary; remainder_6m_observed_date gives its date."
+ },
+ {
+  "field": "remainder_6m_observed_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the 6-month observation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_12m",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Dated observation about 12 months after announcement.",
+  "coding_rule": "As for remainder_6m."
+ },
+ {
+  "field": "remainder_12m_observed_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the 12-month observation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "remainder_24m",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Dated observation about 24 months after announcement.",
+  "coding_rule": "As for remainder_6m."
+ },
+ {
+  "field": "remainder_24m_observed_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the 24-month observation.",
+  "coding_rule": ""
+ },
+ {
+  "field": "jurisdiction_basis",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "Target-country proxy",
+  "description": "How threshold_jurisdiction was chosen.",
+  "coding_rule": ""
+ },
+ {
+  "field": "tier_reason",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Why the record sits in its tier, in one or two sentences.",
+  "coding_rule": ""
+ },
+ {
+  "field": "headline_check",
+  "file": "deals.csv / deals.json",
+  "type": "dict",
+  "allowed_values": "",
+  "description": "Evidence class for the five key facts (acquirer, target, announce_date, deal_type, structure_facts).",
+  "coding_rule": "primary = at least one grade A source; two_source = two independent grade B newsrooms; first_report = date from a single dated report (allowed for dates); single = one grade B report only; none = no tagged source. Counts only quotes confirmed word for word."
+ },
+ {
+  "field": "tier_rule",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "The tier rule the record meets.",
+  "coding_rule": ""
+ },
+ {
+  "field": "field_notes",
+  "file": "deals.csv / deals.json",
+  "type": "dict",
+  "allowed_values": "",
+  "description": "Short notes on the scope of individual coded fields, keyed by field name.",
+  "coding_rule": ""
+ },
+ {
+  "field": "source_count",
+  "file": "deals.csv / deals.json",
+  "type": "int",
+  "allowed_values": "",
+  "description": "Number of sources for the deal.",
+  "coding_rule": ""
+ },
+ {
+  "field": "grade_a_sources",
+  "file": "deals.csv / deals.json",
+  "type": "int",
+  "allowed_values": "",
+  "description": "Number of grade A sources for the deal.",
+  "coding_rule": ""
+ },
+ {
+  "field": "single_report_fields",
+  "file": "deals.csv / deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Coded fields of this deal whose only support is one grade B report (no grade A source and no second independent newsroom).",
+  "coding_rule": "Use this to exclude single-report facts from an analysis."
+ },
+ {
+  "field": "conflicts",
+  "file": "deals.csv / deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "The same disagreements in structured form: field, each version with its value and source.",
+  "coding_rule": ""
+ },
+ {
+  "field": "incorporation_jurisdiction",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Jurisdiction of incorporation, where a source states it and it differs from target_country.",
+  "coding_rule": ""
+ },
+ {
+  "field": "observations",
+  "file": "deals.csv / deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Additional dated observations of a field (value, type, date and source) kept alongside the coded value.",
+  "coding_rule": ""
+ },
+ {
+  "field": "advisers",
+  "file": "deals.csv / deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Advisers named in public sources: firm, role, side and source URL.",
+  "coding_rule": ""
+ },
+ {
+  "field": "evidence_status",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Summary of the evidence where it is limited or unusual.",
+  "coding_rule": ""
+ },
+ {
+  "field": "value_scope",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Scope of the amount where it covers more than this deal (tranches, rounds, ceilings).",
+  "coding_rule": ""
+ },
+ {
+  "field": "date_evidence_rule",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "Single dated report: the article proves its own publication date (first public report).",
+  "description": "Set where the date rests on a single dated report.",
+  "coding_rule": "A dated news report can establish its own publication date, so a first public report may date a deal on its own."
+ },
+ {
+  "field": "hsr_threshold_usd",
+  "file": "deals.csv / deals.json",
+  "type": "float",
+  "allowed_values": "119500000.0 / 126400000.0 / 133900000.0",
+  "description": "US HSR size-of-transaction threshold for threshold_year.",
+  "coding_rule": ""
+ },
+ {
+  "field": "dma_notification_date",
+  "file": "deals.csv / deals.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the European Commission DMA Article 14 notification, where one exists.",
+  "coding_rule": ""
+ },
+ {
+  "field": "company_rationale_parts",
+  "file": "deals.csv / deals.json",
+  "type": "dict",
+  "allowed_values": "",
+  "description": "Buyer and target rationale separately, each with its quote and source URL.",
+  "coding_rule": ""
+ },
+ {
+  "field": "target_legal_name",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Target’s legal name where it differs from target.",
+  "coding_rule": ""
+ },
+ {
+  "field": "acquirer_legal_name",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer’s legal or group name where it differs from acquirer.",
+  "coding_rule": ""
+ },
+ {
+  "field": "wind_down_notice",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Wind-down announcement, where the target announced one.",
+  "coding_rule": ""
+ },
+ {
+  "field": "money_type",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Type of money where the deal’s amount is not broken into components.",
+  "coding_rule": ""
+ },
+ {
+  "field": "note",
+  "file": "deals.csv / deals.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Record-level note on how a related or held record is defined.",
+  "coding_rule": ""
+ },
+ {
+  "field": "sources",
+  "file": "deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Sources for the deal (deals.json only; flattened in sources.csv, where each column is described).",
+  "coding_rule": ""
+ },
+ {
+  "field": "regulatory_events",
+  "file": "deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Dated actions by competition authorities and other public bodies (deals.json only; flattened in regulatory_events.csv).",
+  "coding_rule": ""
+ },
+ {
+  "field": "money_components",
+  "file": "deals.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Each disclosed amount as stated, with its type (deals.json only; flattened in money_components.csv).",
+  "coding_rule": "Components are never added together, within a deal or across deals."
+ },
+ {
+  "field": "deal_id",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Deal the source belongs to (see deals.csv).",
+  "coding_rule": ""
+ },
+ {
+  "field": "source_n",
+  "file": "sources.csv / sources.json",
+  "type": "int",
+  "allowed_values": "",
+  "description": "Source number within the deal.",
+  "coding_rule": ""
+ },
+ {
+  "field": "publisher",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Who published the page or document.",
+  "coding_rule": ""
+ },
+ {
+  "field": "title",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Title of the page or document, where recorded.",
+  "coding_rule": ""
+ },
+ {
+  "field": "date",
+  "file": "sources.csv / sources.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Publication date of the source.",
+  "coding_rule": ""
+ },
+ {
+  "field": "grade",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "A / B",
+  "description": "Source grade: A or B.",
+  "coding_rule": "A = the company, a filing, a regulator, a court or a registry. B = a major newsroom with editorial standards."
+ },
+ {
+  "field": "url",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Address of the source as checked.",
+  "coding_rule": ""
+ },
+ {
+  "field": "archive_url",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Wayback Machine copy of the source. Empty where none exists.",
+  "coding_rule": ""
+ },
+ {
+  "field": "archive_note",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Why a source has no archived copy (for example, the site blocks archiving).",
+  "coding_rule": ""
+ },
+ {
+  "field": "quote",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Exact quote from the source supporting the coded facts (at most 20 words).",
+  "coding_rule": "Copied word for word; spacing, quote marks and dashes may be normalised."
+ },
+ {
+  "field": "supports",
+  "file": "sources.csv / sources.json",
+  "type": "list",
+  "allowed_values": "",
+  "description": "Fields (or finer evidence labels such as tier_evidence or reported_amount) that this quote supports, separated by \"; \".",
+  "coding_rule": ""
+ },
+ {
+  "field": "derivative_of",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Original source this report repeats, where it does.",
+  "coding_rule": "A report that repeats another is not an independent second newsroom."
+ },
+ {
+  "field": "note",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Note on how the source is used.",
+  "coding_rule": ""
+ },
+ {
+  "field": "quote_status",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Best result across all quote checks.",
+  "coding_rule": "exact if any check found the quote word for word."
+ },
+ {
+  "field": "quote_status_method",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Which check established quote_status.",
+  "coding_rule": ""
+ },
+ {
+  "field": "automated_check_result",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Result of the automated checker (verify_sources.py), which fetches the page or archived copy and looks for the quote.",
+  "coding_rule": ""
+ },
+ {
+  "field": "automated_check_at_utc",
+  "file": "sources.csv / sources.json",
+  "type": "datetime",
+  "allowed_values": "",
+  "description": "When the automated check ran.",
+  "coding_rule": ""
+ },
+ {
+  "field": "rendered_check_result",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Result of a check on the page as rendered in a browser, used where the page needs JavaScript (for example the EU DMA register).",
+  "coding_rule": ""
+ },
+ {
+  "field": "second_check_by",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Who or what made the separate second check of the quote.",
+  "coding_rule": ""
+ },
+ {
+  "field": "second_check_at_utc",
+  "file": "sources.csv / sources.json",
+  "type": "datetime",
+  "allowed_values": "",
+  "description": "When the second check was made.",
+  "coding_rule": ""
+ },
+ {
+  "field": "research_round",
+  "file": "sources.csv / sources.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Research round in which the source was added (blank = before round 6).",
+  "coding_rule": ""
+ },
+ {
+  "field": "deal_id",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Deal the event belongs to.",
+  "coding_rule": ""
+ },
+ {
+  "field": "date",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "Date of the action.",
+  "coding_rule": ""
+ },
+ {
+  "field": "body",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Authority or public body.",
+  "coding_rule": ""
+ },
+ {
+  "field": "event",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What the body did.",
+  "coding_rule": ""
+ },
+ {
+  "field": "url",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Source for the event.",
+  "coding_rule": ""
+ },
+ {
+  "field": "case_number",
+  "file": "regulatory_events.csv / regulatory_events.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Case or document reference, where one exists.",
+  "coding_rule": ""
+ },
+ {
+  "field": "deal_id",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Deal the amount belongs to.",
+  "coding_rule": ""
+ },
+ {
+  "field": "original_amount",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Amount as stated by the source.",
+  "coding_rule": "Never added to other components."
+ },
+ {
+  "field": "currency",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Currency of original_amount (\"as stated\" where the source mixes currencies).",
+  "coding_rule": ""
+ },
+ {
+  "field": "money_type",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Type of amount (investment, commitment or ceiling, licence fee, round total and so on).",
+  "coding_rule": ""
+ },
+ {
+  "field": "tranche_or_cumulative",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Whether the amount is one tranche, a cumulative figure or a ceiling, and what it excludes.",
+  "coding_rule": ""
+ },
+ {
+  "field": "url",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Source for the amount.",
+  "coding_rule": ""
+ },
+ {
+  "field": "quote_exact",
+  "file": "money_components.csv / money_components.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Exact quote stating the amount.",
+  "coding_rule": ""
+ },
+ {
+  "field": "buyer",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Buyer in the excluded candidate.",
+  "coding_rule": ""
+ },
+ {
+  "field": "candidate",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Target in the excluded candidate.",
+  "coding_rule": ""
+ },
+ {
+  "field": "exclusion_code",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "E1 / E2 / E3 / E4 / E6",
+  "description": "Reason code.",
+  "coding_rule": "E1 full acquisition; E2 no control rights; E3 not an AI startup; E4 insufficient evidence; E6 other."
+ },
+ {
+  "field": "exclusion_label",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "Full acquisition / Insufficient evidence / No control rights / Not an AI startup / Other",
+  "description": "Label for exclusion_code.",
+  "coding_rule": ""
+ },
+ {
+  "field": "reason",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Why the candidate was excluded.",
+  "coding_rule": ""
+ },
+ {
+  "field": "source_url",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Source for the exclusion. Empty for 11 full acquisitions kept only as a comparison set.",
+  "coding_rule": ""
+ },
+ {
+  "field": "source_grade",
+  "file": "rejected.csv / rejected.json",
+  "type": "str",
+  "allowed_values": "A / B",
+  "description": "Grade of that source.",
+  "coding_rule": ""
+ },
+ {
+  "field": "checked_date",
+  "file": "rejected.csv / rejected.json",
+  "type": "date",
+  "allowed_values": "",
+  "description": "When the exclusion was checked.",
+  "coding_rule": ""
+ },
+ {
+  "field": "deal_id",
+  "file": "research_log.csv / research_log.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Deal researched.",
+  "coding_rule": ""
+ },
+ {
+  "field": "field",
+  "file": "research_log.csv / research_log.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Field requested in round 6.",
+  "coding_rule": ""
+ },
+ {
+  "field": "status",
+  "file": "research_log.csv / research_log.json",
+  "type": "str",
+  "allowed_values": "conflict / found / not applicable / not disclosed (quoted) / not found",
+  "description": "Outcome: found, not found, not applicable, conflict, or not disclosed (quoted).",
+  "coding_rule": ""
+ },
+ {
+  "field": "searched",
+  "file": "research_log.csv / research_log.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Where the researcher looked.",
+  "coding_rule": ""
+ },
+ {
+  "field": "note",
+  "file": "research_log.csv / research_log.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What was found.",
+  "coding_rule": ""
+ },
+ {
+  "field": "field",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Column or key name.",
+  "coding_rule": ""
+ },
+ {
+  "field": "file",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "File the field appears in.",
+  "coding_rule": ""
+ },
+ {
+  "field": "type",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Data type (str, int, float, date, datetime, list, dict; \"int|str\" = number, or text such as \"not disclosed\").",
+  "coding_rule": ""
+ },
+ {
+  "field": "allowed_values",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "Allowed values for enumerated fields, computed from the data.",
+  "coding_rule": ""
+ },
+ {
+  "field": "description",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "What the field holds.",
+  "coding_rule": ""
+ },
+ {
+  "field": "coding_rule",
+  "file": "codebook.csv / codebook.json",
+  "type": "str",
+  "allowed_values": "",
+  "description": "How a value is chosen where a judgement is involved. Blank where the description is enough.",
+  "coding_rule": ""
+ }
+]

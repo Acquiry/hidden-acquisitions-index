@@ -29,487 +29,452 @@
           {
             "name": "deal_id",
             "type": "string",
-            "description": "Stable identifier: buyer-target-year"
+            "description": "Deal researched."
           },
           {
             "name": "announce_date",
             "type": "string",
-            "description": "First public announcement (YYYY-MM-DD, or YYYY-MM where only month known)"
+            "description": "Date the deal was first made public (YYYY-MM-DD, or YYYY-MM where only the month is known)."
           },
           {
             "name": "date_precision",
             "type": "string",
-            "description": "day / month / year"
+            "description": "Precision of announce_date."
           },
           {
             "name": "acquirer",
             "type": "string",
-            "description": "Buying company"
+            "description": "Buyer, as commonly named."
           },
           {
             "name": "acquirer_country",
             "type": "string",
-            "description": "Buyer headquarters country"
+            "description": "Country of the buyer’s headquarters."
           },
           {
             "name": "target",
             "type": "string",
-            "description": "Startup or lab"
+            "description": "Startup or lab, as commonly named."
           },
           {
             "name": "target_country",
             "type": "string",
-            "description": "Target operating country"
+            "description": "Country where the target operates (headquarters or main operations)."
           },
           {
             "name": "target_focus",
             "type": "string",
-            "description": "What the target does, from sources"
+            "description": "What the target does, in the sources’ words."
           },
           {
             "name": "deal_type",
             "type": "string",
-            "description": "LICENCE_AND_HIRE, TEAM_ONLY_HIRE, MINORITY_STAKE_CONTROL, COMPUTE_FOR_EQUITY, OTHER_HYBRID"
+            "description": "Structure of the transaction."
           },
           {
             "name": "licence_included",
             "type": "string",
-            "description": "yes / no / not disclosed"
+            "description": "Whether the deal includes a licence of the target’s technology."
           },
           {
             "name": "licence_exclusive",
             "type": "string",
-            "description": "yes / no / not disclosed"
+            "description": "Whether that licence is exclusive."
           },
           {
             "name": "equity_stake_pct",
             "type": "string",
-            "description": "Buyer shareholding after the deal, percent"
+            "description": "Buyer’s shareholding after the deal, with its basis."
           },
           {
             "name": "disclosed_value_usd",
             "type": "string",
-            "description": "Disclosed consideration in USD; never estimated"
+            "description": "Disclosed consideration in US dollars."
           },
           {
             "name": "value_note",
             "type": "string",
-            "description": "Scope of the value: what it covers"
+            "description": "What disclosed_value_usd covers."
           },
           {
             "name": "value_basis",
             "type": "string",
-            "description": "filed / approximate / reported"
+            "description": "How the value is stated (for example point, ceiling, approximate, conflicting estimates)."
           },
           {
             "name": "value_source_grade",
             "type": "string",
-            "description": "Grade of the best source for the value"
+            "description": "Grade of the best source for the value."
           },
           {
             "name": "founders_moved",
             "type": "string",
-            "description": "Founders who joined the buyer"
+            "description": "Founders who joined the buyer, with their role there where disclosed."
           },
           {
             "name": "founder_move_confirmed",
             "type": "string",
-            "description": "See codebook"
+            "description": "Whether a founder move is confirmed by a grade A or B source."
           },
           {
             "name": "staff_moved",
             "type": "string",
-            "description": "Number or description of staff who moved"
+            "description": "Number or description of staff who moved, as stated."
           },
           {
             "name": "target_staff_before",
             "type": "string",
-            "description": "See codebook"
+            "description": "Target headcount before the deal, with its date."
           },
           {
             "name": "target_status_after",
             "type": "string",
-            "description": "continued / pivoted / product discontinued / wound down / bankruptcy / sold"
+            "description": "Status of the target company after the deal."
           },
           {
             "name": "status_date",
             "type": "string",
-            "description": "Date of the status observation"
+            "description": "Date of the target_status_after observation."
           },
           {
             "name": "target_status_note",
             "type": "string",
-            "description": "See codebook"
+            "description": "Short note on target_status_after."
           },
           {
             "name": "investor_outcome",
             "type": "string",
-            "description": "See codebook"
+            "description": "What the target’s investors received, as stated."
           },
           {
             "name": "employee_outcome",
             "type": "string",
-            "description": "See codebook"
+            "description": "What happened to staff who did not move, as stated."
           },
           {
             "name": "target_last_valuation_usd",
             "type": "string",
-            "description": "See codebook"
+            "description": "Target’s last valuation before the deal, as stated."
           },
           {
             "name": "valuation_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of that valuation."
           },
           {
             "name": "regulatory_review",
             "type": "string",
-            "description": "Highest level of regulator review known"
+            "description": "Highest level of regulator attention known."
           },
           {
             "name": "regulatory_detail",
             "type": "string",
-            "description": "Short neutral description"
+            "description": "Short neutral description of regulator actions."
           },
           {
             "name": "conflict",
             "type": "string",
-            "description": "See codebook"
+            "description": "Where sources disagree on a value: what each says. \"none\" = no disagreement recorded."
           },
           {
             "name": "date_basis",
             "type": "string",
-            "description": "See codebook"
+            "description": "What announce_date is based on (company announcement, filing, or first public report)."
           },
           {
             "name": "notes",
             "type": "string",
-            "description": "See codebook"
+            "description": "Other relevant facts from the sources."
           },
           {
             "name": "completeness",
             "type": "string",
-            "description": "See codebook"
+            "description": "How complete the record is: full, core (key fields only) or partial."
           },
           {
             "name": "buyer_tier",
             "type": "string",
-            "description": "mega-cap over $100bn / other listed / AI lab"
+            "description": "Size class of the buyer."
           },
           {
             "name": "remainder_after",
             "type": "string",
-            "description": "Status of the remaining company"
+            "description": "Status of the remaining company at the latest record."
           },
           {
             "name": "remainder_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of remainder_after."
           },
           {
             "name": "remainder_valuation_after_usd",
             "type": "string",
-            "description": "See codebook"
+            "description": "Later valuation of the remaining company, as stated."
           },
           {
             "name": "founder_retention",
             "type": "string",
-            "description": "See codebook"
+            "description": "Whether founders were still at the buyer at the latest record."
           },
           {
             "name": "relationship_id",
             "type": "string",
-            "description": "Links tranches of one relationship"
+            "description": "Links several deals (tranches) between the same buyer and target."
           },
           {
             "name": "tranche_count",
             "type": "string",
-            "description": "See codebook"
+            "description": "Number of tranches in the relationship."
           },
           {
             "name": "hsr_threshold_multiple",
             "type": "string",
-            "description": "See codebook"
+            "description": "disclosed_value_usd divided by hsr_threshold_usd, where both exist."
           },
           {
             "name": "index_tier",
             "type": "string",
-            "description": "core (strict control rule), extended (investment plus commercial tie-in, or AI infrastructure), hold (evidence below threshold)"
+            "description": "Tier of the record: core, extended (shown as \"related\" on the website) or hold."
           },
           {
             "name": "target_layer",
             "type": "string",
-            "description": "Foundation models, applied AI and agents, infrastructure, etc."
+            "description": "AI stack layer of the target."
           },
           {
             "name": "company_rationale",
             "type": "string",
-            "description": "Reason given by the companies, quoted or closely paraphrased"
+            "description": "Reason the companies gave for the deal, quoted or closely paraphrased."
           },
           {
             "name": "threshold_jurisdiction",
             "type": "string",
-            "description": "Target operating-country proxy for merger thresholds (not a finding that a filing was required)"
+            "description": "Jurisdiction used to compare the deal with merger-filing thresholds."
           },
           {
             "name": "threshold_year",
             "type": "string",
-            "description": "See codebook"
+            "description": "Year whose threshold applies."
           },
           {
             "name": "deal_stage",
             "type": "string",
-            "description": "See codebook"
+            "description": "Stage of the transaction at the latest source (for example announced, agreed, completed, proposed employment offers)."
           },
           {
             "name": "staff_offers_reported",
             "type": "string",
-            "description": "Employment offers reported (not completed hires)"
-          },
-          {
-            "name": "staff_hired_pct",
-            "type": "string",
-            "description": "See codebook"
+            "description": "Employment offers reported, where completed hires are not confirmed."
           },
           {
             "name": "structure_facts",
             "type": "string",
-            "description": "See codebook"
+            "description": "Short description of how the deal is structured, from the sources."
           },
           {
             "name": "voting_board_seat",
             "type": "string",
-            "description": "Buyer holds a voting board seat (yes/no/not disclosed)"
+            "description": "Whether the buyer holds a voting board seat."
           },
           {
             "name": "board_observer_or_committee",
             "type": "string",
-            "description": "Observer or advisory committee seat"
+            "description": "Whether the buyer holds an observer or advisory committee seat."
           },
           {
             "name": "veto_or_reserved_matters",
             "type": "string",
-            "description": "Buyer veto rights"
+            "description": "Buyer veto or consent rights."
           },
           {
             "name": "exclusivity",
             "type": "string",
-            "description": "Commercial exclusivity linked to the deal"
+            "description": "Commercial exclusivity tied to the deal (for example sole cloud provider)."
           },
           {
             "name": "right_of_first_refusal",
             "type": "string",
-            "description": "ROFR held by buyer"
+            "description": "Right of first refusal held by the buyer."
           },
           {
             "name": "contractual_consultation_rights",
             "type": "string",
-            "description": "Consultation rights"
+            "description": "Buyer rights to consult or advise management."
           },
           {
             "name": "licence_exclusive_confirmed",
             "type": "string",
-            "description": "Exclusivity stated in an official source"
+            "description": "Whether exclusivity (or non-exclusivity) is stated in an official (grade A) source."
           },
           {
             "name": "cloud_compute_spending_commitment",
             "type": "string",
-            "description": "Target compute spend commitment tied to stake"
+            "description": "Target’s commitment to spend on the buyer’s cloud or compute, as stated."
           },
           {
             "name": "remainder_valuation_after_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of that valuation."
           },
           {
             "name": "total_funding_raised_usd",
             "type": "string",
-            "description": "See codebook"
+            "description": "Target’s total funding before the deal, as stated."
           },
           {
             "name": "lead_investors",
             "type": "string",
-            "description": "See codebook"
+            "description": "Lead investors in the target’s funding rounds, as stated."
           },
           {
             "name": "payout_detail",
             "type": "string",
-            "description": "See codebook"
+            "description": "How the money was paid out (to investors, employees or the company), as stated."
           },
           {
             "name": "remainder_6m",
             "type": "string",
-            "description": "Remainder status about 6 months after announcement"
+            "description": "Dated observation of the remaining company about 6 months after announcement."
           },
           {
             "name": "remainder_6m_observed_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of the 6-month observation."
           },
           {
             "name": "remainder_12m",
             "type": "string",
-            "description": "About 12 months after"
+            "description": "Dated observation about 12 months after announcement."
           },
           {
             "name": "remainder_12m_observed_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of the 12-month observation."
           },
           {
             "name": "remainder_24m",
             "type": "string",
-            "description": "About 24 months after"
+            "description": "Dated observation about 24 months after announcement."
           },
           {
             "name": "remainder_24m_observed_date",
             "type": "string",
-            "description": "See codebook"
+            "description": "Date of the 24-month observation."
           },
           {
             "name": "jurisdiction_basis",
             "type": "string",
-            "description": "See codebook"
+            "description": "How threshold_jurisdiction was chosen."
           },
           {
             "name": "tier_reason",
             "type": "string",
-            "description": "Why the record sits in its tier"
+            "description": "Why the record sits in its tier, in one or two sentences."
           },
           {
             "name": "headline_check",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Evidence class for the five key facts (acquirer, target, announce_date, deal_type, structure_facts)."
           },
           {
             "name": "tier_rule",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "The tier rule the record meets."
           },
           {
             "name": "field_notes",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Short notes on the scope of individual coded fields, keyed by field name."
           },
           {
             "name": "source_count",
             "type": "string",
-            "description": "source count"
+            "description": "Number of sources for the deal."
           },
           {
             "name": "grade_a_sources",
             "type": "string",
-            "description": "grade a sources"
+            "description": "Number of grade A sources for the deal."
+          },
+          {
+            "name": "single_report_fields",
+            "type": "string",
+            "description": "Coded fields of this deal whose only support is one grade B report (no grade A source and no second independent newsroom)."
           },
           {
             "name": "conflicts",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "The same disagreements in structured form: field, each version with its value and source."
           },
           {
             "name": "incorporation_jurisdiction",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Jurisdiction of incorporation, where a source states it and it differs from target_country."
           },
           {
             "name": "observations",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
-          },
-          {
-            "name": "deal_type_previous",
-            "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Additional dated observations of a field (value, type, date and source) kept alongside the coded value."
           },
           {
             "name": "advisers",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Advisers named in public sources: firm, role, side and source URL."
           },
           {
             "name": "evidence_status",
             "type": "string",
-            "description": "See codebook"
+            "description": "Summary of the evidence where it is limited or unusual."
           },
           {
             "name": "value_scope",
             "type": "string",
-            "description": "See codebook"
+            "description": "Scope of the amount where it covers more than this deal (tranches, rounds, ceilings)."
           },
           {
             "name": "date_evidence_rule",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Set where the date rests on a single dated report."
           },
           {
             "name": "hsr_threshold_usd",
             "type": "string",
-            "description": "See codebook"
-          },
-          {
-            "name": "funding_lead_for_review",
-            "type": "string",
-            "description": "See codebook"
+            "description": "US HSR size-of-transaction threshold for threshold_year."
           },
           {
             "name": "dma_notification_date",
             "type": "string",
-            "description": "Date of EU DMA Article 14 notification"
+            "description": "Date of the European Commission DMA Article 14 notification, where one exists."
           },
           {
             "name": "company_rationale_parts",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Buyer and target rationale separately, each with its quote and source URL."
           },
           {
             "name": "target_legal_name",
             "type": "string",
-            "description": "target legal name"
+            "description": "Target’s legal name where it differs from target."
           },
           {
             "name": "acquirer_legal_name",
             "type": "string",
-            "description": "acquirer legal name"
-          },
-          {
-            "name": "tier_previous",
-            "type": "string",
-            "description": "[TO BE SUPPLIED]"
-          },
-          {
-            "name": "research_lead",
-            "type": "string",
-            "description": "See codebook"
+            "description": "Buyer’s legal or group name where it differs from acquirer."
           },
           {
             "name": "wind_down_notice",
             "type": "string",
-            "description": "See codebook"
-          },
-          {
-            "name": "regulator_doc_url",
-            "type": "string",
-            "description": "See codebook"
-          },
-          {
-            "name": "source_round",
-            "type": "string",
-            "description": "See codebook"
+            "description": "Wind-down announcement, where the target announced one."
           },
           {
             "name": "money_type",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Type of amount (investment, commitment or ceiling, licence fee, round total and so on)."
           },
           {
             "name": "note",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
-          },
-          {
-            "name": "added_in",
-            "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "What was found."
           }
         ],
         "primaryKey": "deal_id"
@@ -526,7 +491,7 @@
           {
             "name": "deal_id",
             "type": "string",
-            "description": "Stable identifier: buyer-target-year"
+            "description": "Deal researched."
           },
           {
             "name": "source_n",
@@ -535,64 +500,73 @@
           },
           {
             "name": "publisher",
-            "type": "string"
+            "type": "string",
+            "description": "Who published the page or document."
           },
           {
             "name": "title",
-            "type": "string"
+            "type": "string",
+            "description": "Title of the page or document, where recorded."
           },
           {
             "name": "date",
-            "type": "string"
+            "type": "string",
+            "description": "Date of the action."
           },
           {
             "name": "grade",
-            "type": "string"
+            "type": "string",
+            "description": "Source grade: A or B."
           },
           {
             "name": "url",
-            "type": "string"
+            "type": "string",
+            "description": "Source for the amount."
           },
           {
             "name": "archive_url",
-            "type": "string"
+            "type": "string",
+            "description": "Wayback Machine copy of the source. Empty where none exists."
           },
           {
             "name": "archive_note",
             "type": "string",
-            "description": "Why a source has no archived copy (for example, the site blocks archiving). Empty when an archived copy exists."
+            "description": "Why a source has no archived copy (for example, the site blocks archiving)."
           },
           {
             "name": "quote",
-            "type": "string"
+            "type": "string",
+            "description": "Exact quote from the source supporting the coded facts (at most 20 words)."
           },
           {
             "name": "supports",
-            "type": "string"
+            "type": "string",
+            "description": "Fields (or finer evidence labels such as tier_evidence or reported_amount) that this quote supports, separated by \"; \"."
           },
           {
             "name": "derivative_of",
-            "type": "string"
+            "type": "string",
+            "description": "Original source this report repeats, where it does."
           },
           {
             "name": "note",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "What was found."
           },
           {
             "name": "quote_status",
             "type": "string",
-            "description": "Best result across all checks: exact if any method found the quote word for word."
+            "description": "Best result across all quote checks."
           },
           {
             "name": "quote_status_method",
             "type": "string",
-            "description": "Which method established quote_status."
+            "description": "Which check established quote_status."
           },
           {
             "name": "automated_check_result",
             "type": "string",
-            "description": "Result of the deterministic checker (verify_sources.py), which fetches the page or archived copy and looks for the quote."
+            "description": "Result of the automated checker (verify_sources.py), which fetches the page or archived copy and looks for the quote."
           },
           {
             "name": "automated_check_at_utc",
@@ -602,12 +576,12 @@
           {
             "name": "rendered_check_result",
             "type": "string",
-            "description": "Result of a check on the page as rendered in a browser, used where the page needs JavaScript (e.g. the EU DMA register)."
+            "description": "Result of a check on the page as rendered in a browser, used where the page needs JavaScript (for example the EU DMA register)."
           },
           {
             "name": "second_check_by",
             "type": "string",
-            "description": "Who or what made the separate second check of the quote, value and date."
+            "description": "Who or what made the separate second check of the quote."
           },
           {
             "name": "second_check_at_utc",
@@ -642,27 +616,32 @@
           {
             "name": "deal_id",
             "type": "string",
-            "description": "Stable identifier: buyer-target-year"
+            "description": "Deal researched."
           },
           {
             "name": "date",
-            "type": "string"
+            "type": "string",
+            "description": "Date of the action."
           },
           {
             "name": "body",
-            "type": "string"
+            "type": "string",
+            "description": "Authority or public body."
           },
           {
             "name": "event",
-            "type": "string"
+            "type": "string",
+            "description": "What the body did."
           },
           {
             "name": "url",
-            "type": "string"
+            "type": "string",
+            "description": "Source for the amount."
           },
           {
             "name": "case_number",
-            "type": "string"
+            "type": "string",
+            "description": "Case or document reference, where one exists."
           }
         ],
         "foreignKeys": [
@@ -687,32 +666,37 @@
           {
             "name": "deal_id",
             "type": "string",
-            "description": "Stable identifier: buyer-target-year"
+            "description": "Deal researched."
           },
           {
             "name": "original_amount",
-            "type": "string"
+            "type": "string",
+            "description": "Amount as stated by the source."
           },
           {
             "name": "currency",
-            "type": "string"
+            "type": "string",
+            "description": "Currency of original_amount (\"as stated\" where the source mixes currencies)."
           },
           {
             "name": "money_type",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "Type of amount (investment, commitment or ceiling, licence fee, round total and so on)."
           },
           {
             "name": "tranche_or_cumulative",
-            "type": "string"
+            "type": "string",
+            "description": "Whether the amount is one tranche, a cumulative figure or a ceiling, and what it excludes."
           },
           {
             "name": "url",
-            "type": "string"
+            "type": "string",
+            "description": "Source for the amount."
           },
           {
             "name": "quote_exact",
-            "type": "string"
+            "type": "string",
+            "description": "Exact quote stating the amount."
           }
         ],
         "foreignKeys": [
@@ -736,35 +720,43 @@
         "fields": [
           {
             "name": "buyer",
-            "type": "string"
+            "type": "string",
+            "description": "Buyer in the excluded candidate."
           },
           {
             "name": "candidate",
-            "type": "string"
+            "type": "string",
+            "description": "Target in the excluded candidate."
           },
           {
             "name": "exclusion_code",
-            "type": "string"
+            "type": "string",
+            "description": "Reason code."
           },
           {
             "name": "exclusion_label",
-            "type": "string"
+            "type": "string",
+            "description": "Label for exclusion_code."
           },
           {
             "name": "reason",
-            "type": "string"
+            "type": "string",
+            "description": "Why the candidate was excluded."
           },
           {
             "name": "source_url",
-            "type": "string"
+            "type": "string",
+            "description": "Source for the exclusion. Empty for 11 full acquisitions kept only as a comparison set."
           },
           {
             "name": "source_grade",
-            "type": "string"
+            "type": "string",
+            "description": "Grade of that source."
           },
           {
             "name": "checked_date",
-            "type": "string"
+            "type": "string",
+            "description": "When the exclusion was checked."
           }
         ]
       }
@@ -779,27 +771,33 @@
         "fields": [
           {
             "name": "field",
-            "type": "string"
+            "type": "string",
+            "description": "Column or key name."
           },
           {
             "name": "file",
-            "type": "string"
+            "type": "string",
+            "description": "File the field appears in."
           },
           {
             "name": "type",
-            "type": "string"
+            "type": "string",
+            "description": "Data type (str, int, float, date, datetime, list, dict; \"int|str\" = number, or text such as \"not disclosed\")."
           },
           {
             "name": "allowed_values",
-            "type": "string"
+            "type": "string",
+            "description": "Allowed values for enumerated fields, computed from the data."
           },
           {
             "name": "description",
-            "type": "string"
+            "type": "string",
+            "description": "What the field holds."
           },
           {
             "name": "coding_rule",
-            "type": "string"
+            "type": "string",
+            "description": "How a value is chosen where a judgement is involved. Blank where the description is enough."
           }
         ]
       }
@@ -815,24 +813,27 @@
           {
             "name": "deal_id",
             "type": "string",
-            "description": "Stable identifier: buyer-target-year"
+            "description": "Deal researched."
           },
           {
             "name": "field",
-            "type": "string"
+            "type": "string",
+            "description": "Column or key name."
           },
           {
             "name": "status",
-            "type": "string"
+            "type": "string",
+            "description": "Outcome: found, not found, not applicable, conflict, or not disclosed (quoted)."
           },
           {
             "name": "searched",
-            "type": "string"
+            "type": "string",
+            "description": "Where the researcher looked."
           },
           {
             "name": "note",
             "type": "string",
-            "description": "[TO BE SUPPLIED]"
+            "description": "What was found."
           }
         ]
       }

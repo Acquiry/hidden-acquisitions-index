@@ -1,0 +1,560 @@
+[
+ {
+  "deal_id": "microsoft-openai-2023",
+  "original_amount": "10000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "January 2023 incremental investment",
+  "url": "https://assets.publishing.service.gov.uk/media/67fe26ef712bf73dea135449/____Full_text_decision__.pdf",
+  "quote_exact": "In January 2023, Microsoft invested a further $10 billion in OpenAI."
+ },
+ {
+  "deal_id": "nvidia-recursion-2023",
+  "original_amount": "50000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "single private placement",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183024000019/rxrx-20231231.htm",
+  "quote_exact": "NVIDIA invested $50 million in Recursion via a private placement"
+ },
+ {
+  "deal_id": "amazon-anthropic-2023",
+  "original_amount": "4000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "2023 note agreement, two tranches. excludes 2024 agreement",
+  "url": "https://www.anthropic.com/news/anthropic-amazon",
+  "quote_exact": "Amazon will invest up to $4 billion in Anthropic"
+ },
+ {
+  "deal_id": "google-anthropic-oct-2023",
+  "original_amount": "2000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "September 2023 agreement, three tranches. October reporting. Excludes February relationship.",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000213035726000014/filename1.htm",
+  "quote_exact": "up to $2.0\nbillion, issuable in three tranches."
+ },
+ {
+  "deal_id": "alibaba-moonshot-2024",
+  "original_amount": "approximately 800000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "total fiscal-year investment in Moonshot preferred stock. also disclosed as approximately RMB5.9 billion",
+  "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312524145954/d842337dex991.pdf",
+  "quote_exact": "approximately US$0.8 billion (approximately RMB5.9 billion)"
+ },
+ {
+  "deal_id": "microsoft-mistral-2024",
+  "original_amount": "an investment of €15 million by Microsoft in convertible bonds",
+  "currency": "as stated",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://assets.publishing.service.gov.uk/media/664c6cfd993111924d9d389f/Full_text_decision.pdf",
+  "quote_exact": "an investment of €15 million by Microsoft in convertible bonds"
+ },
+ {
+  "deal_id": "microsoft-g42-2024",
+  "original_amount": "1500000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "minority investment announced. separate developer fund excluded",
+  "url": "https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond/",
+  "quote_exact": "Microsoft will invest $1.5 billion in G42 for a minority stake"
+ },
+ {
+  "deal_id": "google-characterai-2024",
+  "original_amount": "2700000000",
+  "currency": "USD",
+  "money_type": "cash paid",
+  "tranche_or_cumulative": "deal consideration paid in cash. convertible instruments separately cancelled",
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm",
+  "quote_exact": "We paid Character $2.7 billion in cash and canceled our convertible instruments."
+ },
+ {
+  "deal_id": "amazon-anthropic-2024",
+  "original_amount": "4000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "convertible notes, up to US$4.0bn in three tranches",
+  "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+  "quote_exact": "a new $4 billion investment from Amazon"
+ },
+ {
+  "deal_id": "amd-untether-2025",
+  "original_amount": "receipts of US$25 million by Untether",
+  "currency": "USD",
+  "money_type": "as stated",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.pwc.com/ca/en/car/untether/assets/untether-004_311025.pdf",
+  "quote_exact": "receipts of US$25 million by Untether"
+ },
+ {
+  "deal_id": "uber-nuro-2025",
+  "original_amount": "Uber “plans to make multi-hundred-million dollar investments in both Nuro and Lucid”.",
+  "currency": "as stated",
+  "money_type": "planned investment, magnitude only (covers Nuro and Lucid together)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Lucid-Nuro-and-Uber-Partner-on-Next-Generation-Autonomous-Robotaxi-Program/",
+  "quote_exact": "Uber plans to make multi-hundred-million dollar investments in both Nuro and Lucid."
+ },
+ {
+  "deal_id": "asml-mistral-2025",
+  "original_amount": "ASML to lead the Series C, investing €1.3 billion.",
+  "currency": "as stated",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://investor.asml.com/news-releases/news-release-details/asml-mistral-ai-enter-strategic-partnership",
+  "quote_exact": "investing €1.3 billion"
+ },
+ {
+  "deal_id": "microsoft-anthropic-2025",
+  "original_amount": "5000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "separate company ceiling in the same announcement",
+  "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+  "quote_exact": "NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic."
+ },
+ {
+  "deal_id": "nvidia-anthropic-2025",
+  "original_amount": "10000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "separate company ceiling in the same announcement",
+  "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+  "quote_exact": "NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic."
+ },
+ {
+  "deal_id": "nvidia-groq-2025",
+  "original_amount": "13000000000",
+  "currency": "USD",
+  "money_type": "cash paid",
+  "tranche_or_cumulative": "closing component of USD17bn. do not add to total",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+  "quote_exact": "$13.0 billion paid at closing"
+ },
+ {
+  "deal_id": "nvidia-groq-2025",
+  "original_amount": "4000000000",
+  "currency": "USD",
+  "money_type": "deferred",
+  "tranche_or_cumulative": "within one year, includes imputed interest. component of USD17bn",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+  "quote_exact": "$4 billion, inclusive of imputed interest, payable within one year"
+ },
+ {
+  "deal_id": "microsoft-robinai-2026",
+  "original_amount": "aggregate cash consideration of USD 7.0 million, payable in tranches subject to employee acceptance conditions",
+  "currency": "USD",
+  "money_type": "as stated",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://find-and-update.company-information.service.gov.uk/company/11400135/filing-history/MzU0Nzc3MzMzN2FkaXF6a2N4/document?format=pdf&download=0",
+  "quote_exact": "aggregate cash consideration of USD 7.0 million, payable in tranches subject to employee acceptance conditions"
+ },
+ {
+  "deal_id": "uber-waabi-2026",
+  "original_amount": "its oversubscribed $750M USD Series C round",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.waabi.ai/insights/waabi-secures-1-billion-in-new-funding-to-lead-physical-ai-revolution",
+  "quote_exact": "its oversubscribed $750M USD Series C round"
+ },
+ {
+  "deal_id": "amazon-openai-2026",
+  "original_amount": "15000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "initial tranche",
+  "url": "https://openai.com/index/amazon-partnership/",
+  "quote_exact": "starting with an initial $15 billion investment"
+ },
+ {
+  "deal_id": "amazon-openai-2026",
+  "original_amount": "35000000000",
+  "currency": "USD",
+  "money_type": "conditional investment",
+  "tranche_or_cumulative": "later tranche, on conditions",
+  "url": "https://openai.com/index/amazon-partnership/",
+  "quote_exact": "followed by another $35 billion in the coming months when certain conditions are met"
+ },
+ {
+  "deal_id": "amazon-openai-2026",
+  "original_amount": "100000000000",
+  "currency": "USD",
+  "money_type": "spending commitment by the company",
+  "tranche_or_cumulative": "expansion of OpenAI's AWS contract over 8 years; paid by OpenAI to AWS",
+  "url": "https://openai.com/index/amazon-partnership/",
+  "quote_exact": "by $100 billion over 8 years"
+ },
+ {
+  "deal_id": "nvidia-openai-2026",
+  "original_amount": "30000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "NVIDIA allocation in the February 2026 financing round. completion unspecified",
+  "url": "https://openai.com/index/scaling-ai-for-everyone/",
+  "quote_exact": "$30B from NVIDIA"
+ },
+ {
+  "deal_id": "amazon-anthropic-2026",
+  "original_amount": "5000000000",
+  "currency": "USD",
+  "money_type": "equity investment",
+  "tranche_or_cumulative": "initial investment",
+  "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+  "quote_exact": "Amazon is investing $5 billion in Anthropic today, with up to an additional $20 billion in the future."
+ },
+ {
+  "deal_id": "amazon-anthropic-2026",
+  "original_amount": "20000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "up to, future; separate from the initial US$5bn",
+  "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+  "quote_exact": "Amazon is investing $5 billion in Anthropic today, with up to an additional $20 billion in the future."
+ },
+ {
+  "deal_id": "google-anthropic-2026",
+  "original_amount": "40000000000",
+  "currency": "USD",
+  "money_type": "headline total as reported (includes the components below; do not add)",
+  "tranche_or_cumulative": "April announcement only, per Anthropic to Reuters. reconciliation to later legal terms open",
+  "url": "https://www.reuters.com/business/google-plans-invest-up-40-billion-anthropic-bloomberg-news-reports-2026-04-24/",
+  "quote_exact": "will invest up to $40 billion in Anthropic"
+ },
+ {
+  "deal_id": "google-anthropic-2026",
+  "original_amount": "30000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "original March NPA, conditions apply. overlaps subsequent preferred investment, distinct scope from April report",
+  "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf",
+  "quote_exact": "up to $30.0 billion of convertible promissory notes"
+ },
+ {
+  "deal_id": "google-anthropic-2026",
+  "original_amount": "10000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "May Series H purchase reduced remaining NPA capacity to USD20bn. do not add to NPA limit",
+  "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf",
+  "quote_exact": "Google invested $10.0 billion"
+ },
+ {
+  "deal_id": "amd-anthropic-2026",
+  "original_amount": "5000000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "AMD equity investment, maximum announced",
+  "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+  "quote_exact": "a strategic equity investment of up to $5 billion"
+ },
+ {
+  "deal_id": "disney-characterai-2026",
+  "original_amount": "US$30 million",
+  "currency": "USD",
+  "money_type": "employee retention pool (commitment)",
+  "tranche_or_cumulative": "term sheet, section 6",
+  "url": "https://cases.stretto.com/public/x936/14939/PLEADINGS/1493910132680000000114.pdf",
+  "quote_exact": "an aggregate retention pool in an amount equal to US$30 million"
+ },
+ {
+  "deal_id": "alibaba-minimax-2024",
+  "original_amount": "654.0 (US$ million), total consideration received by MiniMax for Series Pre-B.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100025.pdf",
+  "quote_exact": "Total consideration received 31.0 50.0 257.0 50.0 654.0"
+ },
+ {
+  "deal_id": "sktelecom-scatterlab-2023",
+  "original_amount": "KRW 15 billion equity investment in Scatter Lab.",
+  "currency": "as stated",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.sktelecom.com/img/eng/qua/20230510/PressRelease1Q23Eng.pdf",
+  "quote_exact": "KRW 15 billion equity investment in Scatter Lab"
+ },
+ {
+  "deal_id": "oracle-cohere-2023",
+  "original_amount": "Cohere announced a $270M Series C.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://cohere.com/blog/announcement",
+  "quote_exact": "Cohere Announces $270M Series C"
+ },
+ {
+  "deal_id": "snowflake-reka-2023",
+  "original_amount": "Reka announced funding of $60 million dollars. Snowflake's individual subscription was unspecified.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://reka.ai/news/announcing-our-60m-funding-to-build-generative-models-and-advance-ai-research",
+  "quote_exact": "our funding of $60 million dollars"
+ },
+ {
+  "deal_id": "hyundai-tenstorrent-2023",
+  "original_amount": "30000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "investor-specific component of combined USD50m. do not add the group total",
+  "url": "https://www.hyundaimotorgroup.com/en/amp/CONT0000000000103901",
+  "quote_exact": "Hyundai Motor Company and Kia Corporation will invest USD 50 million ($30M and $20M, respectively)"
+ },
+ {
+  "deal_id": "kia-tenstorrent-2023",
+  "original_amount": "20000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "investor-specific component of combined USD50m. do not add the group total",
+  "url": "https://www.hyundaimotorgroup.com/en/amp/CONT0000000000103901",
+  "quote_exact": "Hyundai Motor Company and Kia Corporation will invest USD 50 million ($30M and $20M, respectively)"
+ },
+ {
+  "deal_id": "sktelecom-anthropic-2023",
+  "original_amount": "100000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "additional SKT investment. excludes earlier SK Telecom Venture Capital participation",
+  "url": "https://www.anthropic.com/news/skt-partnership-announcement",
+  "quote_exact": "SKT has invested an additional $100 million in Anthropic"
+ },
+ {
+  "deal_id": "ibm-huggingface-2023",
+  "original_amount": "IBM participated in Hugging Face's $235M Series D.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://newsroom.ibm.com/2023-08-24-IBM-to-Participate-in-235M-Series-D-Funding-Round-of-Hugging-Face",
+  "quote_exact": "IBM is participating in the $235M series D funding round of Hugging Face"
+ },
+ {
+  "deal_id": "kt-moreh-2023",
+  "original_amount": "Moreh raised $22M in Series B funding from AMD, KT (Korea Telecom), and others.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://web.archive.org/web/20261007005134/https://moreh.io/about/",
+  "quote_exact": "Raised $22M in Series B funding from AMD, KT (Korea Telecom), and others"
+ },
+ {
+  "deal_id": "sktelecom-allganize-2023",
+  "original_amount": "4000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "Allganize allocation only. issuer gives USD and approximate KRW equivalents",
+  "url": "https://news.sktelecom.com/199456",
+  "quote_exact": "‘올거나이즈’에 약 54억원(4백만 달러)"
+ },
+ {
+  "deal_id": "sktelecom-imprimed-2023",
+  "original_amount": "3000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "ImpriMed allocation only. issuer gives USD and approximate KRW equivalents",
+  "url": "https://news.sktelecom.com/199456",
+  "quote_exact": "‘임프리메드’에 약 40억원(3백만 달러)을 각각 투자하고 지분을 확보했다."
+ },
+ {
+  "deal_id": "kddi-sakanaai-2024",
+  "original_amount": "Sakana AI: “raised $30M in a seed funding round” (round total).",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://sakana.ai/seed-round/",
+  "quote_exact": "raised $30M in a seed funding round"
+ },
+ {
+  "deal_id": "ntt-sakanaai-2024",
+  "original_amount": "Sakana AI: “raised $30M in a seed funding round” (round total).",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://sakana.ai/seed-round/",
+  "quote_exact": "raised $30M in a seed funding round"
+ },
+ {
+  "deal_id": "sktelecom-lambda-2024",
+  "original_amount": "20000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "February 2024 equity investment, issuer-reported USD",
+  "url": "https://www.sec.gov/Archives/edgar/data/1015650/000119312525101730/d877090d20f.htm",
+  "quote_exact": "an equity investment of US$20 million in Lambda, Inc."
+ },
+ {
+  "deal_id": "sktelecom-perplexity-2024",
+  "original_amount": "10000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "June 2024 equity investment, issuer-reported USD",
+  "url": "https://www.sec.gov/Archives/edgar/data/1015650/000119312525101730/d877090d20f.htm",
+  "quote_exact": "an equity investment of US$10 million in Perplexity AI, Inc."
+ },
+ {
+  "deal_id": "nvidia-sakanaai-2024",
+  "original_amount": "Series A round total as updated on September 17: “raise approximately $200M”.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://sakana.ai/series-a/",
+  "quote_exact": "raise approximately $200M"
+ },
+ {
+  "deal_id": "openai-coreweave-2025",
+  "original_amount": "350000000",
+  "currency": "USD",
+  "money_type": "stock consideration",
+  "tranche_or_cumulative": "stock issued to the customer under services agreement. zero inference of cash from OpenAI",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525052207/d899798dex1025.htm",
+  "quote_exact": "$350,000,000 of Common Stock (the “Issuance Amount”) at the IPO Price"
+ },
+ {
+  "deal_id": "softbank-openai-2025",
+  "original_amount": "30000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "SoftBank total. USD7.5bn first and USD22.5bn second closing. excludes third-party syndicate",
+  "url": "https://group.softbank/en/news/press/20250401",
+  "quote_exact": "SBG’s effective\ninvestment amount is expected to be up to USD 30.0 billion"
+ },
+ {
+  "deal_id": "snowflake-uniphore-2025",
+  "original_amount": "Uniphore closed its $260 million Series F round.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.uniphore.com/press-releases/nvidia-amd-snowflake-databricks-invest-in-uniphores-series-f/",
+  "quote_exact": "the close of its $260 million Series F round"
+ },
+ {
+  "deal_id": "mufg-sakanaai-2025",
+  "original_amount": "20 Billion Yen (135 million US Dollars)",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://web.archive.org/web/20251117010721/https://sakana.ai/series-b/",
+  "quote_exact": "we have raised 20 Billion Yen (135 million US Dollars) for our Series B"
+ },
+ {
+  "deal_id": "openai-cerebras-2026",
+  "original_amount": "a secured promissory note of approximately $1.0 billion",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://investors.cerebras.ai/static-files/9c021f1a-3cc4-44b6-97fa-ef1a4ad2e0d8",
+  "quote_exact": "a secured promissory note of approximately $1.0 billion"
+ },
+ {
+  "deal_id": "nvidia-coreweave-2026",
+  "original_amount": "2000000000",
+  "currency": "USD",
+  "money_type": "cash paid",
+  "tranche_or_cumulative": "NVIDIA cash purchase of CoreWeave Class A shares. single closing on 23 January",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+  "quote_exact": "$2 billion in cash."
+ },
+ {
+  "deal_id": "intel-sambanova-2026",
+  "original_amount": "Raises $350M+, led by Vista and Cambium",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://sambanova.ai/press/sambanova-unveils-fastest-chip-for-agentic-ai-collaborates-with-intel-and-raises-350m",
+  "quote_exact": "Raises $350M+, led by Vista and Cambium"
+ },
+ {
+  "deal_id": "nvidia-nebius-2026",
+  "original_amount": "approximately 2000000000",
+  "currency": "USD",
+  "money_type": "investment",
+  "tranche_or_cumulative": "gross proceeds from placement of a pre-funded warrant. exercise consideration separate",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm",
+  "quote_exact": "aggregate gross proceeds of approximately $2 billion."
+ },
+ {
+  "deal_id": "nvidia-iren-2026",
+  "original_amount": "2100000000",
+  "currency": "USD",
+  "money_type": "commitment or ceiling",
+  "tranche_or_cumulative": "five-year exercise right. maximum possible investment, exercise conditional",
+  "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-IREN-Announce-Strategic-Partnership-to-Accelerate-Deployment-of-up-to-5-Gigawatts-of-AI-Infrastructure/default.aspx",
+  "quote_exact": "a right to invest up to $2.1 billion, subject to certain conditions"
+ },
+ {
+  "deal_id": "smbc-thirdintelligence-2025",
+  "original_amount": "初ラウンドで80億円を調達",
+  "currency": "as stated",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://matsuo-institute.com/2025/11/830/",
+  "quote_exact": "初ラウンドで80億円を調達"
+ },
+ {
+  "deal_id": "mufg-thirdintelligence-2025",
+  "original_amount": "初ラウンドで80億円を調達",
+  "currency": "as stated",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://matsuo-institute.com/2025/11/830/",
+  "quote_exact": "初ラウンドで80億円を調達"
+ },
+ {
+  "deal_id": "nvidia-emeraldai-jul-2025",
+  "original_amount": "Emerald AI announced a $24.5M seed round.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.emeraldai.co/blog/emerald-ai-launches-with-24-5m-seed-round",
+  "quote_exact": "Emerald AI Launches with $24.5M Seed Round"
+ },
+ {
+  "deal_id": "nvidia-emeraldai-oct-2025",
+  "original_amount": "Emerald AI raised an additional $18 million in its seed extension.",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.emeraldai.co/blog/sharing-our-seed-extension-emerald-ais-total-funding-reaches-42-5-million-to-scale-power-flexible-ai-infrastructure",
+  "quote_exact": "We’ve raised an additional $18 million"
+ },
+ {
+  "deal_id": "nvidia-emeraldai-mar-2026",
+  "original_amount": "we have raised $25 million in a Strategic Expansion Round",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.emeraldai.co/blog/sharing-our-strategic-expansion-round-emerald-ai-raises-25-million-to-transform-ai-data-centers-into-flexible-power-grid-assets",
+  "quote_exact": "we have raised $25 million in a Strategic Expansion Round"
+ },
+ {
+  "deal_id": "nvidia-emeraldai-aug-2026",
+  "original_amount": "raised $150 million in an oversubscribed Series A financing",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.emeraldai.co/blog/emerald-ai-raises-150-million-series-a",
+  "quote_exact": "raised $150 million in an oversubscribed Series A financing"
+ },
+ {
+  "deal_id": "nationalgrid-emeraldai-oct-2025",
+  "original_amount": "We’ve raised an additional $18 million",
+  "currency": "USD",
+  "money_type": "funding round total (buyer share not disclosed)",
+  "tranche_or_cumulative": "r6 research",
+  "url": "https://www.emeraldai.co/blog/sharing-our-seed-extension-emerald-ais-total-funding-reaches-42-5-million-to-scale-power-flexible-ai-infrastructure",
+  "quote_exact": "We’ve raised an additional $18 million"
+ },
+ {
+  "deal_id": "sktelecom-smartglobal-2024",
+  "original_amount": "200000000",
+  "currency": "USD",
+  "money_type": "equity investment",
+  "tranche_or_cumulative": "single investment",
+  "url": "https://news.sktelecom.com/en/1479",
+  "quote_exact": "SKT will invest USD$200 million in SGH by acquiring 200,000 preferred shares"
+ }
+]

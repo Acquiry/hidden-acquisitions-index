@@ -19,7 +19,7 @@
   "@type": "sc:Dataset",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
   "name": "The Hidden Acquisitions Index",
-  "description": "The Hidden Acquisitions Index is an open, source-checked dataset of transactions in which large companies gained an AI company's people, technology or influence without buying the company: licence and team hires, team hires, minority stakes with control rights, investments tied to compute commitments, and investments with commercial partnerships. Version 1.1.0 records 109 deals (36 core, 63 related, 10 on hold) announced between 23 January 2023 and 30 October 2026, involving 33 buyers, with 1,700 sources (1,460 official records and 240 major-newsroom reports). Every coded fact is linked to a source with an exact quote of at most 20 words; 99.9% of quotes were confirmed word for word by at least one check between 15 and 18 November 2026 (live page, archived copy, rendered page or a separate second check), and the check result is recorded for every source. It also records 82 regulator events, 62 disclosed amounts kept as separate components (never summed), outcomes at 6, 12 and 24 months, and 168 candidates excluded with their reasons.",
+  "description": "The Hidden Acquisitions Index is an open, source-checked dataset of transactions in which large companies gained an AI company's people, technology or influence without buying the company: licence and team hires, team hires, minority stakes with control rights, investments tied to compute commitments, and investments with commercial partnerships. Version 1.1.0 records 109 deals (36 core, 63 related, 10 on hold) announced between 23 January 2023 and 30 October 2026, involving 33 buyers, with 1,700 sources (1,464 official records and 236 major-newsroom reports). Coded facts are linked to sources, each with an exact quote of at most 20 words; all 1,700 quotes were confirmed word for word by at least one check between 15 and 18 November 2026 (live page, archived copy, rendered page or a separate second check), and the check result is recorded for every source. It also records 82 regulator events, 62 disclosed amounts kept as separate components (never summed), outcomes at 6, 12 and 24 months, and 168 candidates excluded with their reasons.",
   "version": "1.1.0",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://www.acquiry.com/labs/hidden-acquisitions/",
@@ -41,7 +41,7 @@
       "name": "deals.csv",
       "contentUrl": "data/deals.csv",
       "encodingFormat": "text/csv",
-      "sha256": "89f23d4eb78328e524db7eaa5854d982b9881a9489142127380b38e57bca2bb6"
+      "sha256": "921c91b568b17d2d44927739c6227c9d532b46b2ad1c62f46b38c86fcb1c3d85"
     },
     {
       "@type": "cr:FileObject",
@@ -49,7 +49,7 @@
       "name": "sources.csv",
       "contentUrl": "data/sources.csv",
       "encodingFormat": "text/csv",
-      "sha256": "4829bd03b2be46fee45e3ec6f48857822c6cd7ac56963475198fd4f21a8875de"
+      "sha256": "62fc3ec895a57a50a512ded9b00354ac7a132e269a1e8181c233ce1c6a9fe5a0"
     },
     {
       "@type": "cr:FileObject",
@@ -73,7 +73,7 @@
       "name": "rejected.csv",
       "contentUrl": "data/rejected.csv",
       "encodingFormat": "text/csv",
-      "sha256": "a8387370eb33c3937c134ff16657f2ff6d9bdc56b250c7f5a259867af7537301"
+      "sha256": "cf956342a6aed2f2b6b7ab945f65621c3772c1d6db3d6c38528738415dd0ef36"
     },
     {
       "@type": "cr:FileObject",
@@ -81,7 +81,7 @@
       "name": "codebook.csv",
       "contentUrl": "data/codebook.csv",
       "encodingFormat": "text/csv",
-      "sha256": "9fd26826424d9d957642677af1f198aebafa55485d7b0ac230a43c735ecab829"
+      "sha256": "a046afbfa133215db7bb7bd545b163785891777813afd7b9102786b4b5ac6a40"
     },
     {
       "@type": "cr:FileObject",
@@ -89,7 +89,7 @@
       "name": "research_log.csv",
       "contentUrl": "data/research_log.csv",
       "encodingFormat": "text/csv",
-      "sha256": "3584f4d0acd122bd6a72853b0f37fcd41e3ea08df48c55a6835ca942c9e2df73"
+      "sha256": "b516aa843387b456e76d6a64e4b2938687f6b81d027090189270e71a38eadf64"
     }
   ],
   "recordSet": [
@@ -102,7 +102,7 @@
           "@type": "cr:Field",
           "@id": "deals/deal_id",
           "name": "deal_id",
-          "description": "Stable identifier: buyer-target-year",
+          "description": "Deal researched.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -117,7 +117,7 @@
           "@type": "cr:Field",
           "@id": "deals/announce_date",
           "name": "announce_date",
-          "description": "First public announcement (YYYY-MM-DD, or YYYY-MM where only month known)",
+          "description": "Date the deal was first made public (YYYY-MM-DD, or YYYY-MM where only the month is known).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -132,7 +132,7 @@
           "@type": "cr:Field",
           "@id": "deals/date_precision",
           "name": "date_precision",
-          "description": "day / month / year",
+          "description": "Precision of announce_date.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -147,7 +147,7 @@
           "@type": "cr:Field",
           "@id": "deals/acquirer",
           "name": "acquirer",
-          "description": "Buying company",
+          "description": "Buyer, as commonly named.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -162,7 +162,7 @@
           "@type": "cr:Field",
           "@id": "deals/acquirer_country",
           "name": "acquirer_country",
-          "description": "Buyer headquarters country",
+          "description": "Country of the buyer’s headquarters.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -177,7 +177,7 @@
           "@type": "cr:Field",
           "@id": "deals/target",
           "name": "target",
-          "description": "Startup or lab",
+          "description": "Startup or lab, as commonly named.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -192,7 +192,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_country",
           "name": "target_country",
-          "description": "Target operating country",
+          "description": "Country where the target operates (headquarters or main operations).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -207,7 +207,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_focus",
           "name": "target_focus",
-          "description": "What the target does, from sources",
+          "description": "What the target does, in the sources’ words.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -222,7 +222,7 @@
           "@type": "cr:Field",
           "@id": "deals/deal_type",
           "name": "deal_type",
-          "description": "LICENCE_AND_HIRE, TEAM_ONLY_HIRE, MINORITY_STAKE_CONTROL, COMPUTE_FOR_EQUITY, OTHER_HYBRID",
+          "description": "Structure of the transaction.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -237,7 +237,7 @@
           "@type": "cr:Field",
           "@id": "deals/licence_included",
           "name": "licence_included",
-          "description": "yes / no / not disclosed",
+          "description": "Whether the deal includes a licence of the target’s technology.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -252,7 +252,7 @@
           "@type": "cr:Field",
           "@id": "deals/licence_exclusive",
           "name": "licence_exclusive",
-          "description": "yes / no / not disclosed",
+          "description": "Whether that licence is exclusive.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -267,7 +267,7 @@
           "@type": "cr:Field",
           "@id": "deals/equity_stake_pct",
           "name": "equity_stake_pct",
-          "description": "Buyer shareholding after the deal, percent",
+          "description": "Buyer’s shareholding after the deal, with its basis.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -282,7 +282,7 @@
           "@type": "cr:Field",
           "@id": "deals/disclosed_value_usd",
           "name": "disclosed_value_usd",
-          "description": "Disclosed consideration in USD; never estimated",
+          "description": "Disclosed consideration in US dollars.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -297,7 +297,7 @@
           "@type": "cr:Field",
           "@id": "deals/value_note",
           "name": "value_note",
-          "description": "Scope of the value: what it covers",
+          "description": "What disclosed_value_usd covers.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -312,7 +312,7 @@
           "@type": "cr:Field",
           "@id": "deals/value_basis",
           "name": "value_basis",
-          "description": "filed / approximate / reported",
+          "description": "How the value is stated (for example point, ceiling, approximate, conflicting estimates).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -327,7 +327,7 @@
           "@type": "cr:Field",
           "@id": "deals/value_source_grade",
           "name": "value_source_grade",
-          "description": "Grade of the best source for the value",
+          "description": "Grade of the best source for the value.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -342,7 +342,7 @@
           "@type": "cr:Field",
           "@id": "deals/founders_moved",
           "name": "founders_moved",
-          "description": "Founders who joined the buyer",
+          "description": "Founders who joined the buyer, with their role there where disclosed.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -357,7 +357,7 @@
           "@type": "cr:Field",
           "@id": "deals/founder_move_confirmed",
           "name": "founder_move_confirmed",
-          "description": "See codebook",
+          "description": "Whether a founder move is confirmed by a grade A or B source.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -372,7 +372,7 @@
           "@type": "cr:Field",
           "@id": "deals/staff_moved",
           "name": "staff_moved",
-          "description": "Number or description of staff who moved",
+          "description": "Number or description of staff who moved, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -387,7 +387,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_staff_before",
           "name": "target_staff_before",
-          "description": "See codebook",
+          "description": "Target headcount before the deal, with its date.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -402,7 +402,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_status_after",
           "name": "target_status_after",
-          "description": "continued / pivoted / product discontinued / wound down / bankruptcy / sold",
+          "description": "Status of the target company after the deal.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -417,7 +417,7 @@
           "@type": "cr:Field",
           "@id": "deals/status_date",
           "name": "status_date",
-          "description": "Date of the status observation",
+          "description": "Date of the target_status_after observation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -432,7 +432,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_status_note",
           "name": "target_status_note",
-          "description": "See codebook",
+          "description": "Short note on target_status_after.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -447,7 +447,7 @@
           "@type": "cr:Field",
           "@id": "deals/investor_outcome",
           "name": "investor_outcome",
-          "description": "See codebook",
+          "description": "What the target’s investors received, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -462,7 +462,7 @@
           "@type": "cr:Field",
           "@id": "deals/employee_outcome",
           "name": "employee_outcome",
-          "description": "See codebook",
+          "description": "What happened to staff who did not move, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -477,7 +477,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_last_valuation_usd",
           "name": "target_last_valuation_usd",
-          "description": "See codebook",
+          "description": "Target’s last valuation before the deal, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -492,7 +492,7 @@
           "@type": "cr:Field",
           "@id": "deals/valuation_date",
           "name": "valuation_date",
-          "description": "See codebook",
+          "description": "Date of that valuation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -507,7 +507,7 @@
           "@type": "cr:Field",
           "@id": "deals/regulatory_review",
           "name": "regulatory_review",
-          "description": "Highest level of regulator review known",
+          "description": "Highest level of regulator attention known.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -522,7 +522,7 @@
           "@type": "cr:Field",
           "@id": "deals/regulatory_detail",
           "name": "regulatory_detail",
-          "description": "Short neutral description",
+          "description": "Short neutral description of regulator actions.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -537,7 +537,7 @@
           "@type": "cr:Field",
           "@id": "deals/conflict",
           "name": "conflict",
-          "description": "See codebook",
+          "description": "Where sources disagree on a value: what each says. \"none\" = no disagreement recorded.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -552,7 +552,7 @@
           "@type": "cr:Field",
           "@id": "deals/date_basis",
           "name": "date_basis",
-          "description": "See codebook",
+          "description": "What announce_date is based on (company announcement, filing, or first public report).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -567,7 +567,7 @@
           "@type": "cr:Field",
           "@id": "deals/notes",
           "name": "notes",
-          "description": "See codebook",
+          "description": "Other relevant facts from the sources.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -582,7 +582,7 @@
           "@type": "cr:Field",
           "@id": "deals/completeness",
           "name": "completeness",
-          "description": "See codebook",
+          "description": "How complete the record is: full, core (key fields only) or partial.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -597,7 +597,7 @@
           "@type": "cr:Field",
           "@id": "deals/buyer_tier",
           "name": "buyer_tier",
-          "description": "mega-cap over $100bn / other listed / AI lab",
+          "description": "Size class of the buyer.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -612,7 +612,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_after",
           "name": "remainder_after",
-          "description": "Status of the remaining company",
+          "description": "Status of the remaining company at the latest record.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -627,7 +627,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_date",
           "name": "remainder_date",
-          "description": "See codebook",
+          "description": "Date of remainder_after.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -642,7 +642,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_valuation_after_usd",
           "name": "remainder_valuation_after_usd",
-          "description": "See codebook",
+          "description": "Later valuation of the remaining company, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -657,7 +657,7 @@
           "@type": "cr:Field",
           "@id": "deals/founder_retention",
           "name": "founder_retention",
-          "description": "See codebook",
+          "description": "Whether founders were still at the buyer at the latest record.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -672,7 +672,7 @@
           "@type": "cr:Field",
           "@id": "deals/relationship_id",
           "name": "relationship_id",
-          "description": "Links tranches of one relationship",
+          "description": "Links several deals (tranches) between the same buyer and target.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -687,7 +687,7 @@
           "@type": "cr:Field",
           "@id": "deals/tranche_count",
           "name": "tranche_count",
-          "description": "See codebook",
+          "description": "Number of tranches in the relationship.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -702,7 +702,7 @@
           "@type": "cr:Field",
           "@id": "deals/hsr_threshold_multiple",
           "name": "hsr_threshold_multiple",
-          "description": "See codebook",
+          "description": "disclosed_value_usd divided by hsr_threshold_usd, where both exist.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -717,7 +717,7 @@
           "@type": "cr:Field",
           "@id": "deals/index_tier",
           "name": "index_tier",
-          "description": "core (strict control rule), extended (investment plus commercial tie-in, or AI infrastructure), hold (evidence below threshold)",
+          "description": "Tier of the record: core, extended (shown as \"related\" on the website) or hold.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -732,7 +732,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_layer",
           "name": "target_layer",
-          "description": "Foundation models, applied AI and agents, infrastructure, etc.",
+          "description": "AI stack layer of the target.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -747,7 +747,7 @@
           "@type": "cr:Field",
           "@id": "deals/company_rationale",
           "name": "company_rationale",
-          "description": "Reason given by the companies, quoted or closely paraphrased",
+          "description": "Reason the companies gave for the deal, quoted or closely paraphrased.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -762,7 +762,7 @@
           "@type": "cr:Field",
           "@id": "deals/threshold_jurisdiction",
           "name": "threshold_jurisdiction",
-          "description": "Target operating-country proxy for merger thresholds (not a finding that a filing was required)",
+          "description": "Jurisdiction used to compare the deal with merger-filing thresholds.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -777,7 +777,7 @@
           "@type": "cr:Field",
           "@id": "deals/threshold_year",
           "name": "threshold_year",
-          "description": "See codebook",
+          "description": "Year whose threshold applies.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -792,7 +792,7 @@
           "@type": "cr:Field",
           "@id": "deals/deal_stage",
           "name": "deal_stage",
-          "description": "See codebook",
+          "description": "Stage of the transaction at the latest source (for example announced, agreed, completed, proposed employment offers).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -807,7 +807,7 @@
           "@type": "cr:Field",
           "@id": "deals/staff_offers_reported",
           "name": "staff_offers_reported",
-          "description": "Employment offers reported (not completed hires)",
+          "description": "Employment offers reported, where completed hires are not confirmed.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -820,24 +820,9 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "deals/staff_hired_pct",
-          "name": "staff_hired_pct",
-          "description": "See codebook",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "staff_hired_pct"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
           "@id": "deals/structure_facts",
           "name": "structure_facts",
-          "description": "See codebook",
+          "description": "Short description of how the deal is structured, from the sources.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -852,7 +837,7 @@
           "@type": "cr:Field",
           "@id": "deals/voting_board_seat",
           "name": "voting_board_seat",
-          "description": "Buyer holds a voting board seat (yes/no/not disclosed)",
+          "description": "Whether the buyer holds a voting board seat.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -867,7 +852,7 @@
           "@type": "cr:Field",
           "@id": "deals/board_observer_or_committee",
           "name": "board_observer_or_committee",
-          "description": "Observer or advisory committee seat",
+          "description": "Whether the buyer holds an observer or advisory committee seat.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -882,7 +867,7 @@
           "@type": "cr:Field",
           "@id": "deals/veto_or_reserved_matters",
           "name": "veto_or_reserved_matters",
-          "description": "Buyer veto rights",
+          "description": "Buyer veto or consent rights.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -897,7 +882,7 @@
           "@type": "cr:Field",
           "@id": "deals/exclusivity",
           "name": "exclusivity",
-          "description": "Commercial exclusivity linked to the deal",
+          "description": "Commercial exclusivity tied to the deal (for example sole cloud provider).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -912,7 +897,7 @@
           "@type": "cr:Field",
           "@id": "deals/right_of_first_refusal",
           "name": "right_of_first_refusal",
-          "description": "ROFR held by buyer",
+          "description": "Right of first refusal held by the buyer.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -927,7 +912,7 @@
           "@type": "cr:Field",
           "@id": "deals/contractual_consultation_rights",
           "name": "contractual_consultation_rights",
-          "description": "Consultation rights",
+          "description": "Buyer rights to consult or advise management.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -942,7 +927,7 @@
           "@type": "cr:Field",
           "@id": "deals/licence_exclusive_confirmed",
           "name": "licence_exclusive_confirmed",
-          "description": "Exclusivity stated in an official source",
+          "description": "Whether exclusivity (or non-exclusivity) is stated in an official (grade A) source.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -957,7 +942,7 @@
           "@type": "cr:Field",
           "@id": "deals/cloud_compute_spending_commitment",
           "name": "cloud_compute_spending_commitment",
-          "description": "Target compute spend commitment tied to stake",
+          "description": "Target’s commitment to spend on the buyer’s cloud or compute, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -972,7 +957,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_valuation_after_date",
           "name": "remainder_valuation_after_date",
-          "description": "See codebook",
+          "description": "Date of that valuation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -987,7 +972,7 @@
           "@type": "cr:Field",
           "@id": "deals/total_funding_raised_usd",
           "name": "total_funding_raised_usd",
-          "description": "See codebook",
+          "description": "Target’s total funding before the deal, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1002,7 +987,7 @@
           "@type": "cr:Field",
           "@id": "deals/lead_investors",
           "name": "lead_investors",
-          "description": "See codebook",
+          "description": "Lead investors in the target’s funding rounds, as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1017,7 +1002,7 @@
           "@type": "cr:Field",
           "@id": "deals/payout_detail",
           "name": "payout_detail",
-          "description": "See codebook",
+          "description": "How the money was paid out (to investors, employees or the company), as stated.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1032,7 +1017,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_6m",
           "name": "remainder_6m",
-          "description": "Remainder status about 6 months after announcement",
+          "description": "Dated observation of the remaining company about 6 months after announcement.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1047,7 +1032,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_6m_observed_date",
           "name": "remainder_6m_observed_date",
-          "description": "See codebook",
+          "description": "Date of the 6-month observation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1062,7 +1047,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_12m",
           "name": "remainder_12m",
-          "description": "About 12 months after",
+          "description": "Dated observation about 12 months after announcement.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1077,7 +1062,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_12m_observed_date",
           "name": "remainder_12m_observed_date",
-          "description": "See codebook",
+          "description": "Date of the 12-month observation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1092,7 +1077,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_24m",
           "name": "remainder_24m",
-          "description": "About 24 months after",
+          "description": "Dated observation about 24 months after announcement.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1107,7 +1092,7 @@
           "@type": "cr:Field",
           "@id": "deals/remainder_24m_observed_date",
           "name": "remainder_24m_observed_date",
-          "description": "See codebook",
+          "description": "Date of the 24-month observation.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1122,7 +1107,7 @@
           "@type": "cr:Field",
           "@id": "deals/jurisdiction_basis",
           "name": "jurisdiction_basis",
-          "description": "See codebook",
+          "description": "How threshold_jurisdiction was chosen.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1137,7 +1122,7 @@
           "@type": "cr:Field",
           "@id": "deals/tier_reason",
           "name": "tier_reason",
-          "description": "Why the record sits in its tier",
+          "description": "Why the record sits in its tier, in one or two sentences.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1152,7 +1137,7 @@
           "@type": "cr:Field",
           "@id": "deals/headline_check",
           "name": "headline_check",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Evidence class for the five key facts (acquirer, target, announce_date, deal_type, structure_facts).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1167,7 +1152,7 @@
           "@type": "cr:Field",
           "@id": "deals/tier_rule",
           "name": "tier_rule",
-          "description": "[TO BE SUPPLIED]",
+          "description": "The tier rule the record meets.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1182,7 +1167,7 @@
           "@type": "cr:Field",
           "@id": "deals/field_notes",
           "name": "field_notes",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Short notes on the scope of individual coded fields, keyed by field name.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1197,7 +1182,7 @@
           "@type": "cr:Field",
           "@id": "deals/source_count",
           "name": "source_count",
-          "description": "source count",
+          "description": "Number of sources for the deal.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1212,7 +1197,7 @@
           "@type": "cr:Field",
           "@id": "deals/grade_a_sources",
           "name": "grade_a_sources",
-          "description": "grade a sources",
+          "description": "Number of grade A sources for the deal.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1225,9 +1210,24 @@
         },
         {
           "@type": "cr:Field",
+          "@id": "deals/single_report_fields",
+          "name": "single_report_fields",
+          "description": "Coded fields of this deal whose only support is one grade B report (no grade A source and no second independent newsroom).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "csv-deals"
+            },
+            "extract": {
+              "column": "single_report_fields"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
           "@id": "deals/conflicts",
           "name": "conflicts",
-          "description": "[TO BE SUPPLIED]",
+          "description": "The same disagreements in structured form: field, each version with its value and source.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1242,7 +1242,7 @@
           "@type": "cr:Field",
           "@id": "deals/incorporation_jurisdiction",
           "name": "incorporation_jurisdiction",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Jurisdiction of incorporation, where a source states it and it differs from target_country.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1257,7 +1257,7 @@
           "@type": "cr:Field",
           "@id": "deals/observations",
           "name": "observations",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Additional dated observations of a field (value, type, date and source) kept alongside the coded value.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1270,24 +1270,9 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "deals/deal_type_previous",
-          "name": "deal_type_previous",
-          "description": "[TO BE SUPPLIED]",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "deal_type_previous"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
           "@id": "deals/advisers",
           "name": "advisers",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Advisers named in public sources: firm, role, side and source URL.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1302,7 +1287,7 @@
           "@type": "cr:Field",
           "@id": "deals/evidence_status",
           "name": "evidence_status",
-          "description": "See codebook",
+          "description": "Summary of the evidence where it is limited or unusual.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1317,7 +1302,7 @@
           "@type": "cr:Field",
           "@id": "deals/value_scope",
           "name": "value_scope",
-          "description": "See codebook",
+          "description": "Scope of the amount where it covers more than this deal (tranches, rounds, ceilings).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1332,7 +1317,7 @@
           "@type": "cr:Field",
           "@id": "deals/date_evidence_rule",
           "name": "date_evidence_rule",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Set where the date rests on a single dated report.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1347,7 +1332,7 @@
           "@type": "cr:Field",
           "@id": "deals/hsr_threshold_usd",
           "name": "hsr_threshold_usd",
-          "description": "See codebook",
+          "description": "US HSR size-of-transaction threshold for threshold_year.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1360,24 +1345,9 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "deals/funding_lead_for_review",
-          "name": "funding_lead_for_review",
-          "description": "See codebook",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "funding_lead_for_review"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
           "@id": "deals/dma_notification_date",
           "name": "dma_notification_date",
-          "description": "Date of EU DMA Article 14 notification",
+          "description": "Date of the European Commission DMA Article 14 notification, where one exists.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1392,7 +1362,7 @@
           "@type": "cr:Field",
           "@id": "deals/company_rationale_parts",
           "name": "company_rationale_parts",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Buyer and target rationale separately, each with its quote and source URL.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1407,7 +1377,7 @@
           "@type": "cr:Field",
           "@id": "deals/target_legal_name",
           "name": "target_legal_name",
-          "description": "target legal name",
+          "description": "Target’s legal name where it differs from target.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1422,7 +1392,7 @@
           "@type": "cr:Field",
           "@id": "deals/acquirer_legal_name",
           "name": "acquirer_legal_name",
-          "description": "acquirer legal name",
+          "description": "Buyer’s legal or group name where it differs from acquirer.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1435,39 +1405,9 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "deals/tier_previous",
-          "name": "tier_previous",
-          "description": "[TO BE SUPPLIED]",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "tier_previous"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "deals/research_lead",
-          "name": "research_lead",
-          "description": "See codebook",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "research_lead"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
           "@id": "deals/wind_down_notice",
           "name": "wind_down_notice",
-          "description": "See codebook",
+          "description": "Wind-down announcement, where the target announced one.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1480,39 +1420,9 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "deals/regulator_doc_url",
-          "name": "regulator_doc_url",
-          "description": "See codebook",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "regulator_doc_url"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "deals/source_round",
-          "name": "source_round",
-          "description": "See codebook",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "source_round"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
           "@id": "deals/money_type",
           "name": "money_type",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Type of amount (investment, commitment or ceiling, licence fee, round total and so on).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1527,7 +1437,7 @@
           "@type": "cr:Field",
           "@id": "deals/note",
           "name": "note",
-          "description": "[TO BE SUPPLIED]",
+          "description": "What was found.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1535,21 +1445,6 @@
             },
             "extract": {
               "column": "note"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "deals/added_in",
-          "name": "added_in",
-          "description": "[TO BE SUPPLIED]",
-          "dataType": "sc:Text",
-          "source": {
-            "fileObject": {
-              "@id": "csv-deals"
-            },
-            "extract": {
-              "column": "added_in"
             }
           }
         }
@@ -1564,7 +1459,7 @@
           "@type": "cr:Field",
           "@id": "sources/deal_id",
           "name": "deal_id",
-          "description": "Stable identifier: buyer-target-year",
+          "description": "Deal researched.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1594,7 +1489,7 @@
           "@type": "cr:Field",
           "@id": "sources/publisher",
           "name": "publisher",
-          "description": "publisher",
+          "description": "Who published the page or document.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1609,7 +1504,7 @@
           "@type": "cr:Field",
           "@id": "sources/title",
           "name": "title",
-          "description": "title",
+          "description": "Title of the page or document, where recorded.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1624,7 +1519,7 @@
           "@type": "cr:Field",
           "@id": "sources/date",
           "name": "date",
-          "description": "date",
+          "description": "Date of the action.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1639,7 +1534,7 @@
           "@type": "cr:Field",
           "@id": "sources/grade",
           "name": "grade",
-          "description": "grade",
+          "description": "Source grade: A or B.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1654,7 +1549,7 @@
           "@type": "cr:Field",
           "@id": "sources/url",
           "name": "url",
-          "description": "url",
+          "description": "Source for the amount.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1669,7 +1564,7 @@
           "@type": "cr:Field",
           "@id": "sources/archive_url",
           "name": "archive_url",
-          "description": "archive_url",
+          "description": "Wayback Machine copy of the source. Empty where none exists.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1684,7 +1579,7 @@
           "@type": "cr:Field",
           "@id": "sources/archive_note",
           "name": "archive_note",
-          "description": "Why a source has no archived copy (for example, the site blocks archiving). Empty when an archived copy exists.",
+          "description": "Why a source has no archived copy (for example, the site blocks archiving).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1699,7 +1594,7 @@
           "@type": "cr:Field",
           "@id": "sources/quote",
           "name": "quote",
-          "description": "quote",
+          "description": "Exact quote from the source supporting the coded facts (at most 20 words).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1714,7 +1609,7 @@
           "@type": "cr:Field",
           "@id": "sources/supports",
           "name": "supports",
-          "description": "supports",
+          "description": "Fields (or finer evidence labels such as tier_evidence or reported_amount) that this quote supports, separated by \"; \".",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1729,7 +1624,7 @@
           "@type": "cr:Field",
           "@id": "sources/derivative_of",
           "name": "derivative_of",
-          "description": "derivative_of",
+          "description": "Original source this report repeats, where it does.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1744,7 +1639,7 @@
           "@type": "cr:Field",
           "@id": "sources/note",
           "name": "note",
-          "description": "[TO BE SUPPLIED]",
+          "description": "What was found.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1759,7 +1654,7 @@
           "@type": "cr:Field",
           "@id": "sources/quote_status",
           "name": "quote_status",
-          "description": "Best result across all checks: exact if any method found the quote word for word.",
+          "description": "Best result across all quote checks.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1774,7 +1669,7 @@
           "@type": "cr:Field",
           "@id": "sources/quote_status_method",
           "name": "quote_status_method",
-          "description": "Which method established quote_status.",
+          "description": "Which check established quote_status.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1789,7 +1684,7 @@
           "@type": "cr:Field",
           "@id": "sources/automated_check_result",
           "name": "automated_check_result",
-          "description": "Result of the deterministic checker (verify_sources.py), which fetches the page or archived copy and looks for the quote.",
+          "description": "Result of the automated checker (verify_sources.py), which fetches the page or archived copy and looks for the quote.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1819,7 +1714,7 @@
           "@type": "cr:Field",
           "@id": "sources/rendered_check_result",
           "name": "rendered_check_result",
-          "description": "Result of a check on the page as rendered in a browser, used where the page needs JavaScript (e.g. the EU DMA register).",
+          "description": "Result of a check on the page as rendered in a browser, used where the page needs JavaScript (for example the EU DMA register).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1834,7 +1729,7 @@
           "@type": "cr:Field",
           "@id": "sources/second_check_by",
           "name": "second_check_by",
-          "description": "Who or what made the separate second check of the quote, value and date.",
+          "description": "Who or what made the separate second check of the quote.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1886,7 +1781,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/deal_id",
           "name": "deal_id",
-          "description": "Stable identifier: buyer-target-year",
+          "description": "Deal researched.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1901,7 +1796,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/date",
           "name": "date",
-          "description": "date",
+          "description": "Date of the action.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1916,7 +1811,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/body",
           "name": "body",
-          "description": "body",
+          "description": "Authority or public body.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1931,7 +1826,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/event",
           "name": "event",
-          "description": "event",
+          "description": "What the body did.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1946,7 +1841,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/url",
           "name": "url",
-          "description": "url",
+          "description": "Source for the amount.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1961,7 +1856,7 @@
           "@type": "cr:Field",
           "@id": "regulatory_events/case_number",
           "name": "case_number",
-          "description": "case_number",
+          "description": "Case or document reference, where one exists.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1983,7 +1878,7 @@
           "@type": "cr:Field",
           "@id": "money_components/deal_id",
           "name": "deal_id",
-          "description": "Stable identifier: buyer-target-year",
+          "description": "Deal researched.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -1998,7 +1893,7 @@
           "@type": "cr:Field",
           "@id": "money_components/original_amount",
           "name": "original_amount",
-          "description": "original_amount",
+          "description": "Amount as stated by the source.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2013,7 +1908,7 @@
           "@type": "cr:Field",
           "@id": "money_components/currency",
           "name": "currency",
-          "description": "currency",
+          "description": "Currency of original_amount (\"as stated\" where the source mixes currencies).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2028,7 +1923,7 @@
           "@type": "cr:Field",
           "@id": "money_components/money_type",
           "name": "money_type",
-          "description": "[TO BE SUPPLIED]",
+          "description": "Type of amount (investment, commitment or ceiling, licence fee, round total and so on).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2043,7 +1938,7 @@
           "@type": "cr:Field",
           "@id": "money_components/tranche_or_cumulative",
           "name": "tranche_or_cumulative",
-          "description": "tranche_or_cumulative",
+          "description": "Whether the amount is one tranche, a cumulative figure or a ceiling, and what it excludes.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2058,7 +1953,7 @@
           "@type": "cr:Field",
           "@id": "money_components/url",
           "name": "url",
-          "description": "url",
+          "description": "Source for the amount.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2073,7 +1968,7 @@
           "@type": "cr:Field",
           "@id": "money_components/quote_exact",
           "name": "quote_exact",
-          "description": "quote_exact",
+          "description": "Exact quote stating the amount.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2095,7 +1990,7 @@
           "@type": "cr:Field",
           "@id": "rejected/buyer",
           "name": "buyer",
-          "description": "buyer",
+          "description": "Buyer in the excluded candidate.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2110,7 +2005,7 @@
           "@type": "cr:Field",
           "@id": "rejected/candidate",
           "name": "candidate",
-          "description": "candidate",
+          "description": "Target in the excluded candidate.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2125,7 +2020,7 @@
           "@type": "cr:Field",
           "@id": "rejected/exclusion_code",
           "name": "exclusion_code",
-          "description": "exclusion_code",
+          "description": "Reason code.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2140,7 +2035,7 @@
           "@type": "cr:Field",
           "@id": "rejected/exclusion_label",
           "name": "exclusion_label",
-          "description": "exclusion_label",
+          "description": "Label for exclusion_code.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2155,7 +2050,7 @@
           "@type": "cr:Field",
           "@id": "rejected/reason",
           "name": "reason",
-          "description": "reason",
+          "description": "Why the candidate was excluded.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2170,7 +2065,7 @@
           "@type": "cr:Field",
           "@id": "rejected/source_url",
           "name": "source_url",
-          "description": "source_url",
+          "description": "Source for the exclusion. Empty for 11 full acquisitions kept only as a comparison set.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2185,7 +2080,7 @@
           "@type": "cr:Field",
           "@id": "rejected/source_grade",
           "name": "source_grade",
-          "description": "source_grade",
+          "description": "Grade of that source.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2200,7 +2095,7 @@
           "@type": "cr:Field",
           "@id": "rejected/checked_date",
           "name": "checked_date",
-          "description": "checked_date",
+          "description": "When the exclusion was checked.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2222,7 +2117,7 @@
           "@type": "cr:Field",
           "@id": "codebook/field",
           "name": "field",
-          "description": "field",
+          "description": "Column or key name.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2237,7 +2132,7 @@
           "@type": "cr:Field",
           "@id": "codebook/file",
           "name": "file",
-          "description": "file",
+          "description": "File the field appears in.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2252,7 +2147,7 @@
           "@type": "cr:Field",
           "@id": "codebook/type",
           "name": "type",
-          "description": "type",
+          "description": "Data type (str, int, float, date, datetime, list, dict; \"int|str\" = number, or text such as \"not disclosed\").",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2267,7 +2162,7 @@
           "@type": "cr:Field",
           "@id": "codebook/allowed_values",
           "name": "allowed_values",
-          "description": "allowed_values",
+          "description": "Allowed values for enumerated fields, computed from the data.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2282,7 +2177,7 @@
           "@type": "cr:Field",
           "@id": "codebook/description",
           "name": "description",
-          "description": "description",
+          "description": "What the field holds.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2297,7 +2192,7 @@
           "@type": "cr:Field",
           "@id": "codebook/coding_rule",
           "name": "coding_rule",
-          "description": "coding_rule",
+          "description": "How a value is chosen where a judgement is involved. Blank where the description is enough.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2319,7 +2214,7 @@
           "@type": "cr:Field",
           "@id": "research_log/deal_id",
           "name": "deal_id",
-          "description": "Stable identifier: buyer-target-year",
+          "description": "Deal researched.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2334,7 +2229,7 @@
           "@type": "cr:Field",
           "@id": "research_log/field",
           "name": "field",
-          "description": "field",
+          "description": "Column or key name.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2349,7 +2244,7 @@
           "@type": "cr:Field",
           "@id": "research_log/status",
           "name": "status",
-          "description": "status",
+          "description": "Outcome: found, not found, not applicable, conflict, or not disclosed (quoted).",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2364,7 +2259,7 @@
           "@type": "cr:Field",
           "@id": "research_log/searched",
           "name": "searched",
-          "description": "searched",
+          "description": "Where the researcher looked.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
@@ -2379,7 +2274,7 @@
           "@type": "cr:Field",
           "@id": "research_log/note",
           "name": "note",
-          "description": "[TO BE SUPPLIED]",
+          "description": "What was found.",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
