@@ -1,18 +1,18 @@
-# Source check, 2026-11-19T22:10:17Z
+# Source check, 2026-11-22T22:42:11Z
 
 Sources checked: 1700 (1278 distinct URLs)
 
 | Result | All | Core deals |
 |---|---|---|
-| exact | 1496 | 555 |
+| exact | 1496 | 557 |
 | near | 39 | 20 |
-| not_found | 114 | 103 |
-| blocked | 50 | 27 |
+| not_found | 117 | 105 |
+| blocked | 47 | 23 |
 | gone | 0 | 0 |
 | error | 1 | 1 |
 | no_quote | 0 | 0 |
 
-Exact via archive copy: 193
+Exact via archive copy: 146
 
 - exact: quote appears word for word (after normalising spaces, quote marks and dashes).
 - near: 95%+ similar; needs a human look.
@@ -26,10 +26,12 @@ Full detail: reports/source_check.csv
 | deal | source | result | score | url |
 |---|---|---|---|---|
 | google-anthropic-2023 | 31 | not_found | 95 | https://www.gov.uk/cma-cases/alphabet-inc-google-llc-slash-anthropic-merger-inquiry |
+| google-anthropic-2023 | 44 | not_found | 46 | https://ipo.anthropic.com/documents/us/prospectus.pdf |
 | google-anthropic-oct-2023 | 15 | not_found | 0 | https://www.sec.gov/Archives/edgar/data/2130357/000213035726000014/filename1.htm |
 | google-anthropic-oct-2023 | 16 | not_found | 0 | https://www.sec.gov/Archives/edgar/data/2130357/000213035726000014/filename1.htm |
 | google-anthropic-oct-2023 | 20 | not_found | 0 | https://www.sec.gov/Archives/edgar/data/2130357/000213035726000014/filename1.htm |
 | google-anthropic-oct-2023 | 31 | not_found | 95 | https://www.gov.uk/cma-cases/alphabet-inc-google-llc-slash-anthropic-merger-inquiry |
+| google-anthropic-oct-2023 | 34 | not_found | 46 | https://ipo.anthropic.com/documents/us/prospectus.pdf |
 | microsoft-inflection-2024 | 21 | near | 98 | https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm |
 | microsoft-inflection-2024 | 26 | not_found | 44 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
 | microsoft-inflection-2024 | 27 | not_found | 43 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
@@ -63,5 +65,3 @@ Full detail: reports/source_check.csv
 | google-deepsense-2025 | 9 | not_found | 48 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
 | google-deepsense-2025 | 12 | not_found | 46 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
 | google-deepsense-2025 | 13 | not_found | 32 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
-| google-deepsense-2025 | 16 | not_found | 38 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
-| google-deepsense-2025 | 17 | not_found | 46 | https://digital-markets-act-cases.ec.europa.eu/acquisitions |
